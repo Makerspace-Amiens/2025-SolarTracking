@@ -1,25 +1,20 @@
-# Template-project
+Préambule :
 
-Template pour la création d'un repo type projet pour le MakerSpace. Doc gérée via le thème [Just-The-Docs](https://just-the-docs.com) en vanilla.
+Afin de prévaloir, les énergies renouvelables reposent non seulement sur leur impact environnemental positif, mais aussi sur l’amélioration de leur accessibilité et de leur attractivité. Des avancées technologiques peuvent rendre ces solutions plus performantes et économiquement viables, incitant ainsi un plus grand nombre d’utilisateurs à adopter le solaire. En améliorant le rendement des panneaux photovoltaïques, ces innovations réduisent le coût du kilowatt-heure produit, renforçant ainsi la compétitivité du solaire notamment face aux énergies fossiles.
 
-## Bienvenue sur Notre Projet
+L’objectif de ce projet est de concevoir un suiveur solaire qui ajuste automatiquement l’orientation d’un panneau photovoltaïque en fonction de la position du soleil. Ce système est mis en place afin de pouvoir analyser s’il présente une augmentation du rendement des panneaux en maximisant l’exposition aux rayons lumineux tout au long de la journée.
 
-Ce repository est le cœur de notre projet. Ici, vous trouverez toutes les ressources nécessaires pour comprendre, utiliser et contribuer à notre projet.
 
-### Contenu du Repository
+Matériel à disposition :
 
-- **Documentation :** Toutes les documentations techniques et guides d'utilisation sont disponibles dans le dossier `docs`. Voir le site de doc associé. 
-- **project :** Toutes les sources de notre projet.
-
-### Comment Utiliser ce Repository ?
-
-- Pour commencer, consultez la documentation dans le dossier `docs`.
-- Si vous souhaitez contribuer au projet, veuillez lire nos directives de contribution.
-
-## Contribution
-
-Nous accueillons et apprécions toute contribution. Si vous souhaitez contribuer, veuillez consulter notre guide de contribution pour connaître nos attentes et notre processus.
-
-## Contact
-
-Si vous avez des questions ou des suggestions, n'hésitez pas à nous contacter.
+Cellule solaire
+Courroie GT2M3 (rotation du panneau)
+Photorésistances (placées aux quatre coins du panneau)
+Moteur FS90R (360°) et ×2 moteur S008
+Roulement à bille (Rotation)
+ESP Vroom 32 (Microcontrôleur)
+Accu 18650 (stockage d’énergie)
+Slip ring (permet de créer une connexion électrique entre une partie fixe et une partie tournante)
+Écran LCD (Affichage)
+Support (modélisé en 3D)
+Engrenages (modélisés en 3D, Mouvement de rotation)
