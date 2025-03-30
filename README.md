@@ -10,9 +10,9 @@ Matériel à disposition :
 Cellule solaire
 Courroie GT2M3 (rotation du panneau)
 Photorésistances (placées aux quatre coins du panneau)
-Moteur FS90R (360°) et ×2 moteur S008
+Moteur FS90R (360°) et ×2 moteur S008 (180°)
 Roulement à bille (Rotation)
-ESP Vroom 32 (Microcontrôleur)
+ESP Wroom 32 (Microcontrôleur)
 Accu 18650 (stockage d’énergie)
 Slip ring (permet de créer une connexion électrique entre une partie fixe et une partie tournante)
 Écran LCD (Affichage)
