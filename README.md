@@ -18,3 +18,9 @@ Slip ring (permet de créer une connexion électrique entre une partie fixe et u
 Écran LCD (Affichage)
 Support (modélisé en 3D)
 Engrenages (modélisés en 3D, Mouvement de rotation)
+
+Partie Mécanique : [Page enfant](partie_mécanique.md)
+Partie électrique : [Page enfant](partie_électrique.md)
+
+
+
