@@ -1,3 +1,4 @@
 Partie mécanique :
 
-![Ma photo](Modélisation_support_photores.jpg)
+![Ma photo]()
+<img src="Modélisation_support_photores.jpg" width="400">
