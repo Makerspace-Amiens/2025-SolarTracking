@@ -1,6 +1,6 @@
 <h1>Partie Mécanique</h1>
 
-[moteurs.md](Voir moteurs)
+[Voir moteurs](moteurs.md)
 
 <img src="Modélisation_support_photores.jpg" width="400"> 
 
