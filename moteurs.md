@@ -1,4 +1,4 @@
-<h1>Moteur S-0008</h1>h1>
+<h1>Moteur S-0008</h1>
 
 <img src=".github/servo_S-0008.jpg" width="400">
 
