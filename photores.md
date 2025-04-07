@@ -1,4 +1,4 @@
-[Retour](partie_mécanique.md)
+[Retour](partie_électrique.md)
 
 [Page principale](README.md)
 
