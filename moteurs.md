@@ -1,3 +1,7 @@
+[Retour](partie_mécanique.md)
+
+[Page principale](README.md)
+
 <h1>Moteur S-0008</h1>
 
 <img src=".github/servo_S-0008.jpg" width="400">
