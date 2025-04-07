@@ -4,7 +4,7 @@
 
 <h1>Photorésistances</h1>
 
-<img src="photoresistance.jpg" width="400">
+<img src="Images/photoresistance.jpg" width="400">
 
 LDR au CdS présentant une résistance > 10 MΩ dans l'obscurité. 
 
