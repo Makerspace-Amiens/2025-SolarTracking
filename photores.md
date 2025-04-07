@@ -16,6 +16,6 @@ Diamètre : 10 mm
 
 Vitesse de variation : > 200 kΩ/s 
 
-[Retour](partie_mécanique.md)
+[Retour](partie_électrique.md)
 
 [Page principale](README.md)
