@@ -2,6 +2,8 @@
 
 Partie électrique :
 
+[Voir photorésistance](photores.md)
+
 <img src="Images/tests_photores.png" width="400">
 
 Premiers tests des différentes photorésistances que nous avons obtenues. On peut observer que la photorésistance jaune possède des valeurs inférieures aux autres, nous avons donc décidé d'en utiliser une autre.
