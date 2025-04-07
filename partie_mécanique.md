@@ -6,6 +6,8 @@
 
 [Voir cellule photovoltaïque](cellule_ph.md)
 
+[Voir cellule photorésistances](photores.md)
+
 <img src="Images/Modélisation_support_photores.jpg" width="400"> 
 
 Modélisation des caches des photorésistances
