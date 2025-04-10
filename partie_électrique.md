@@ -1,6 +1,6 @@
 [Retour](README.md)
 
-Partie électrique :
+<h1>Partie électrique :</h1>
 
 [Voir photorésistance](photores.md)
 
