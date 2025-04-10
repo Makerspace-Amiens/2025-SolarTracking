@@ -4,7 +4,7 @@
 
 <h1>Diode</h1>
 
-<img src="Images/diode_schottky_2A" width="400">
+<img src="Images/diode_schottky_2A.webp" width="400">
 
 https://www.gotronic.fr/art-diode-schottky-2a-100v-47755.htm 
 
