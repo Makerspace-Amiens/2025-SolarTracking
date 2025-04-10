@@ -1,3 +1,9 @@
+[Retour](partie_électronique.md)
+
+[Page principale](README.md)
+
+<h1>Buck Boost</h1>
+
 On pense prendre un MT3608 ou XL6009. 
 
 Un module MT3608 peut convenir, mais il est limité à 2A max. Mais si on veut plus de marge, un XL6009 ou LM2577 serait plus robuste. 
@@ -27,3 +33,7 @@ Caractéristiques techniques:
 Connectique: fils à souder de 8 cm 
 Dimensions: 19 x 10 x 8 mm 
 Poids: 3,5 gr
+
+[Retour](partie_électronique.md)
+
+[Page principale](README.md)
