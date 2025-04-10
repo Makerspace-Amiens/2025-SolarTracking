@@ -23,6 +23,8 @@ Ressource: https://www.dimensionengineering.com/LVBoost.pdf
 Le LVBoost peut utiliser des tensions aussi faibles que 0,5 Vcc pour les convertir en tensions plus élevées et utilisables dans la plage de 2,2 à 5 Vcc. La tension de sortie se règle à l'aide d'un potentiomètre ajustable. 
  
 Ne nécessite pas de composants externes. Ses applications sont nombreuses: chargeurs solaires, régulateurs solaires, mini-éoliennes, etc. 
+
+<img src="Images/buckboost.webp" width="400">
  
 Caractéristiques techniques: 
 - Tension d'entrée: 0,5 à 5 Vcc 
