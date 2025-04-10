@@ -2,7 +2,7 @@
 
 [Page principale](README.md)
 
-<h1>Diode</h1>
+<h1>Condensateur</h1>
 
 <img src="Images/Condensateur_bipolaire_100µF.webp" width="400">
 
