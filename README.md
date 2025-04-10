@@ -27,3 +27,5 @@ Parties :
 
 [Voir partie électronique](partie_électronique.md)
 
+[Voir partie code](partie_code.md)
+
