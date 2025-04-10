@@ -4,7 +4,7 @@
 
 <h1>ESP WROOM 32</h1>
 
-<img src="Images/ESPWROOM.webp" width="400">
+<img src="Images/ESPWROOM.webp" width="700">
 
 https://www.electronicshub.org/esp32-pinout/
 
