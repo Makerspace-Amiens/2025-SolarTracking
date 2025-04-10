@@ -6,6 +6,8 @@
 
 <img src="Images/photoresistance.jpg" width="400">
 
+https://www.gotronic.fr/art-photoresistance-ldr1000-2152.htm
+
 LDR au CdS présentant une résistance > 10 MΩ dans l'obscurité. 
 
 Cette résistance chute à 75...300 Ω lors de l'exposition à la lumière. 
