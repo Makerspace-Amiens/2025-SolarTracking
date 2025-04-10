@@ -8,6 +8,6 @@
 
 [Voir Condensateur](condensateur.md)
 
-[Voir Buck Boost(buckboost.md)
+[Voir Buck Boost(BUCKBOOST.md)
 
 [Page principale](README.md)
