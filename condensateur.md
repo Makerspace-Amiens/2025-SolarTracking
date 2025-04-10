@@ -6,9 +6,14 @@
 
 <img src="Images/Condensateur_bipolaire_100µF.webp" width="400">
 
-https://www.gotronic.fr/art-diode-schottky-2a-100v-47755.htm 
+Condensateur chimique non polarisé à sorties axiales. 
 
-Un Zener limitera votre tension à 3,6 V, que la tension d'alimentation soit présente ou non. Le circuit de serrage avec les diodes shottky limitera la tension de -0,3 V à VCC+0,3 V. 
+Valeur: 100 µF. 
+Tension de service: 100 V.
+
+https://www.gotronic.fr/art-condensateur-bipolaire-100uf-100v-3353.htm  
+
+Il sagit du condensateur en entrée pour stabiliser la tension du panneau  
 
 [Retour](partie_électronique.md)
 
