@@ -1,4 +1,4 @@
-[Page principale](README.md)
+[Retour](README.md)
 
 <h1>Partie Electronique</h1>
 
