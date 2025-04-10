@@ -10,4 +10,6 @@
 
 [Voir Buck Boost](BUCKBOOST.md)
 
+[Voir Capteur de Lumière](capteur_lumière.md)
+
 [Page principale](README.md)
