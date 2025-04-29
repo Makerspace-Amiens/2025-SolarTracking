@@ -56,5 +56,13 @@ Les supports sont attachés à la base pour assurer la stabilité de l’ensembl
 
 ---
 
+## Plaque
+
+<img src="Images/Plaque_acry.png" width="400">
+
+Plaque d'acrylique qui soutient le système
+
+---
+
 [Retour](partie_mécanique.md)  
 [Page principale](README.md)
