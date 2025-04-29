@@ -9,7 +9,7 @@
 Plateau dans lequel le panneau photovoltaïque est inséré
 
 <img src="Images/Dessin_Tenue_Plateau.png" width="400">
-<img src="Images/Tenue_Plateau.png" width="400">
+<img src="Images/Tenue_plateau.png" width="400">
 
 Support se situant en dessous du plateau
 
