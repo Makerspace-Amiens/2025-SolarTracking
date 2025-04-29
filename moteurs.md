@@ -1,6 +1,6 @@
 [🔙 Retour](partie_mécanique.md)
 
-[Page principale](README.md)
+[🏠 Page principale](README.md)
 
 <h1>Moteur S-0008</h1>
 
@@ -48,6 +48,6 @@ Longueur du cordon: 20 cm
 
 Version: 2.0 
 
-[🔙Retour](partie_mécanique.md)
+[🔙 Retour](partie_mécanique.md)
 
-[Page principale](README.md)
+[🏠 Page principale](README.md)
