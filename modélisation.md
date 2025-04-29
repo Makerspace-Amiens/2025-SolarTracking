@@ -13,6 +13,7 @@ Plateau dans lequel le panneau photovoltaïque est inséré
 
 Support se situant en dessous du plateau
 
+<img src="Images/Modélisation_support_photores.jpg" width="400"> 
 <img src="Images/Bloque_lumière.png" width="400">
 
 Cache pour bloquer la lumière venant dans la direction opposée à la photorésistance
