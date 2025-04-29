@@ -7,7 +7,7 @@
 
 <img src="Images/Plateau_PV.png" width="400">
 
-Plateau dans lequel le panneau photovoltaïque est inséré.
+### Plateau dans lequel le panneau photovoltaïque est inséré.
 
 ---
 
