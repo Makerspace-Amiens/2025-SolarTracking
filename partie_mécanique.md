@@ -6,4 +6,6 @@
 
 [Voir modélisation](modélisation.md)
 
+[Voir pièces](Photo_pièces.md)
+
 [Retour](README.md)
