@@ -42,8 +42,8 @@ Engrenages permettant de faire tourner le panneau sur 360°.
 
 ## Fixation du moteur sous le panneau
 
-<img src="Images/Photo_moteur.png" width="400">
-<img src="Images/Photo_moteur2.png" width="400">
+<img src="Images/Photo_moteur.jpg" width="400">
+<img src="Images/Photo_moteur2.jpg" width="400">
 
 Maintient du moteurs en place.
 
@@ -54,7 +54,6 @@ Maintient du moteurs en place.
 <img src="Images/Photo_accu.jpg" width="400">
 <img src="Images/Photo_accucharger.jpg" width="400">
 
-Les supports sont attachés à la base pour assurer la stabilité de l’ensemble.
 
 ---
 
