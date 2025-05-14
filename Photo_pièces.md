@@ -61,9 +61,16 @@ Maintient du moteurs en place.
 
 <img src="Images/Photo_plaquecuivre.jpg" width="400">
 
-Plaque de cuivre
+Plaque de cuivre qui sert de support afin de souder les éléments électroniques
 
 ---
+
+## Avancement du montage
+
+<img src="Images/Photo_systememeca.jpg" width="400">
+
+---
+
 
 [Retour](partie_mécanique.md)  
 [Page principale](README.md)
