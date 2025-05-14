@@ -67,7 +67,7 @@ Plaque de cuivre qui sert de support afin de souder les éléments électronique
 
 ## Avancement du montage
 
-<img src="Images/Photo_systememeca.jpg" width="400">
+<img src="Images/Photo_systememeca1.jpg" width="400">
 
 ---
 
