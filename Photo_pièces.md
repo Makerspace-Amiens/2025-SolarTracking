@@ -24,11 +24,11 @@ Support situé en dessous du plateau.
 
 ---
 
-## Flip Ring
+## Slip Ring
 
 <img src="Images/Photo_flipring.jpg" width="400">
 
-Le flip ring permet la rotation du système
+Le slip ring permet la rotation du système
 
 ---
 
