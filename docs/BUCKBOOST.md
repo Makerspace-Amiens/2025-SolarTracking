@@ -6,7 +6,6 @@ title: BuckBoost
 
 [Retour](partie_électronique.md)
 
-[Page principale](README.md)
 
 <h1>Buck Boost</h1>
 
@@ -43,5 +42,3 @@ Dimensions: 19 x 10 x 8 mm
 Poids: 3,5 gr
 
 [Retour](partie_électronique.md)
-
-[Page principale](README.md)
