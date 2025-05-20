@@ -1,8 +1,13 @@
+---
+layout: default
+nav_order: 11
+title: Cellule photovoltaïque
+---
+
+
 [Retour](partie_mécanique.md)
 
-[Page principale](README.md)
-
-<h1>Cellule Photovoltaïque</h1>
+# Cellule Photovoltaïque
 
 https://www.gotronic.fr/art-cellule-solaire-sol3w-18996.htm  
 
@@ -10,16 +15,12 @@ Cellule solaire 3 Watts délivrant une tension de 5,5 Vcc sous 540 mA. Une fine 
  
 Attention: la tension peut monter en pointe jusqu'à 10V, vérifier la tension aux bornes de la cellule avant de l'utiliser avec votre application. 
  
+## Caractéristiques :
+
 Tension: 5,5 Vcc/540 mA 
 Connecteur: 2 broches type JST 
 Tension maxi en circuit ouvert: 8,2 V 
 Silicium mono-cristallin. 
-Dimensions: 160 x 138 x 3 mm 
-
- 
-
-5,5 V/540 mA - 160 x 138 mm 
+Dimensions: 160 x 138 x 3 mm
 
 [Retour](partie_mécanique.md)
-
-[Page principale](README.md)
