@@ -21,7 +21,7 @@ Cache pour bloquer la lumière venant dans la direction opposée à la photorés
 
 ## Plateau pour panneau photovoltaïque
 
-![](Plateau_PV.png)
+![](Images/Plateau_PV.png)
 
 Plateau dans lequel le panneau photovoltaïque est inséré.
 
@@ -56,15 +56,6 @@ Engrenage emboité dans le support sous le moteur
 ![](Images/Engrenage_50.png)
 
 Engrenages permettant de faire tourner le panneau
-
----
-
-## Support principal
-
-![](Images/Support.png)
-![](Images/Dessin_Assemblage_Support.png)
-
-Les supports sont attachés à la base pour assurer la stabilité de l’ensemble.
 
 ---
 
