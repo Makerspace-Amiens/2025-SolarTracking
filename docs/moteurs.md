@@ -1,32 +1,38 @@
+---
+layout: default
+nav_order: 14
+title: Moteurs
+---
+
 [Retour](partie_mécanique.md)
 
-[Page principale](README.md)
+# Moteurs
 
-<h1>Moteur S-0008</h1>
+## Moteur S-0008
 
-<img src="Images/servo_S-0008.jpg" width="400">
+![](Images/servo_S-0008.jpg)
 
 Servomoteur S-0008
 
-<img src="Images/Sheet_S-0008.png" width="400">
+![](Images/Sheet_S-0008.png)
 
 Data Sheet Servomoteur S-0008
 
-<h1>Moteur FS90R</h1>
+## Moteur FS90R
 
-<img src="Images/moteur_FS90R.jpg" width="400">
+![](Images/moteur_FS90R.jpg)
 
 Servomoteur FS90R
 
-<img src="Images/dimensions_fs90r.jpg" width="400">
+![](Images/dimensions_fs90r.jpg)
 
 Dimensions du servomoteur FS90R
 
-https://www.gotronic.fr/art-servomoteur-fs90r-25838.htm  
+[](https://www.gotronic.fr/art-servomoteur-fs90r-25838.htm )
 
-Ressource: https://www.gotronic.fr/pj2-fs90r-2556.pdf 
+Ressource: [](https://www.gotronic.fr/pj2-fs90r-2556.pdf)
 
-Caractéristiques: 
+## Caractéristiques: 
 
 Alimentation: 4,8 à 6 Vcc. 
 
@@ -49,5 +55,3 @@ Longueur du cordon: 20 cm
 Version: 2.0 
 
 [Retour](partie_mécanique.md)
-
-[Page principale](README.md)
