@@ -20,7 +20,7 @@ XL https://www.amazon.fr/Adaptateur-dAlimentation-dEnergie-Affichage-Num%C3%A9ri
 
  
 
-Ou même un LVBOOST à voir ave les valeurs du SOL3W: 
+Ou même un LVBOOST à voir avec les valeurs du SOL3W: 
 
 https://www.gotronic.fr/art-booster-2-2-a-5-v-lvboost-14352.htm  
 
@@ -30,7 +30,7 @@ Le LVBoost peut utiliser des tensions aussi faibles que 0,5 Vcc pour les convert
  
 Ne nécessite pas de composants externes. Ses applications sont nombreuses: chargeurs solaires, régulateurs solaires, mini-éoliennes, etc. 
 
-<img src="Images/buckboost.webp" width="400">
+![BUCKboost]("Images/buckboost.webp" width="400")
  
 Caractéristiques techniques: 
 - Tension d'entrée: 0,5 à 5 Vcc 
