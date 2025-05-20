@@ -1,24 +1,29 @@
-[Retour](partie_mécanique.md)  
-[Page principale](README.md)
+---
+layout: default
+nav_order: 5
+title: Photos Pièces
+---
+
+[Retour](partie_mécanique.md)
 
 # Pièces
 
 ## Support
 
-<img src="Images/Photo_support.jpg" width="400">
+![](Images/Photo_support.jpg)
 
-<img src="Images/Photo_support2.jpg" width="400">
+![](Images/Photo_support2.jpg)
 
-<img src="Images/Photo_support3.jpg" width="400">
+![](Images/Photo_support3.jpg)
 
-<img src="Images/Photo_support4.jpg" width="400">
+![](Images/Photo_support4.jpg)
 
 
 ---
 
 ## Version 1 du support du plateau
 
-<img src="Images/Photo_panneausupportV1.jpg" width="400">
+![](Images/Photo_panneausupportV1.jpg)
 
 Support situé en dessous du plateau.
 
@@ -26,7 +31,7 @@ Support situé en dessous du plateau.
 
 ## Slip Ring
 
-<img src="Images/Photo_flipring.jpg" width="400">
+![](Images/Photo_flipring.jpg)
 
 Le slip ring permet la rotation du système
 
@@ -34,7 +39,7 @@ Le slip ring permet la rotation du système
 
 ## Engrenages de rotation
 
-<img src="Images/Photo_engrenages.jpg" width="400">
+![](Images/Photo_engrenages.jpg)
 
 Engrenages permettant de faire tourner le panneau sur 360°.
 
@@ -42,24 +47,24 @@ Engrenages permettant de faire tourner le panneau sur 360°.
 
 ## Fixation du moteur sous le panneau
 
-<img src="Images/Photo_moteur.jpg" width="400">
-<img src="Images/Photo_moteur2.jpg" width="400">
+![](Images/Photo_moteur.jpg)
+![](Images/Photo_moteur2.jpg)
 
-Maintient du moteurs en place.
+Maintient du moteur en place.
 
 ---
 
 ## Accu et chargeur
 
-<img src="Images/Photo_accu.jpg" width="400">
-<img src="Images/Photo_accucharger.jpg" width="400">
+![](Images/Photo_accu.jpg)
+![](Images/Photo_accucharger.jpg)
 
 
 ---
 
 ## Plaque
 
-<img src="Images/Photo_plaquecuivre.jpg" width="400">
+![](Images/Photo_plaquecuivre.jpg)
 
 Plaque de cuivre qui sert de support afin de souder les éléments électroniques
 
@@ -67,10 +72,9 @@ Plaque de cuivre qui sert de support afin de souder les éléments électronique
 
 ## Avancement du montage
 
-<img src="Images/Photo_systememeca1.jpg" width="400">
+![](Images/Photo_systememeca1.jpg)
 
 ---
 
 
 [Retour](partie_mécanique.md)  
-[Page principale](README.md)
