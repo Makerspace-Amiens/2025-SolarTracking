@@ -1,6 +1,12 @@
-[Retour](README.md)
+---
+layout: default
+nav_order: 4
+title: Partie électronique
+---
 
-<h1>Partie Electronique</h1>
+# Partie Electronique
+
+<Ici vous trouverez les différentes composantes électroniques utilisées pour la réalisation du projet
 
 [Voir ESP WROOM 32](ESPWROOM.md)
 
@@ -11,5 +17,3 @@
 [Voir Buck Boost](BUCKBOOST.md)
 
 [Voir Capteur de Lumière](capteur_lumière.md)
-
-[Page principale](README.md)
