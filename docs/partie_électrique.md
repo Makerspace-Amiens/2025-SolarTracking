@@ -4,7 +4,7 @@ nav_order: 3
 title: Partie électrique
 ---
 
-#Partie Electrique
+# Partie Electrique
 
 [Voir photorésistance](photores.md)
 
