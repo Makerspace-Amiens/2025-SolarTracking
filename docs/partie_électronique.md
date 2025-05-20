@@ -1,10 +1,11 @@
 ---
 layout: default
 nav_order: 4
-title: Partie électronique
+title: Partie Electronique
 ---
 
 # Partie Electronique
+---
 
 > Ici vous trouverez les différentes composantes électroniques utilisées pour la réalisation du projet
 
