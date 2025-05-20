@@ -1,15 +1,17 @@
+---
+layout: default
+nav_order: 10
+title: Capteur de lumière
+---
+
 [Retour](partie_électronique.md)
 
-[Page principale](README.md)
+# Capteur de lumière
 
-<h1>Capteur de lumière</h1>
-
-<img src="Images/BH1750_lightsensor.png" width="400">
+![LightSensor](Images/BH1750_lightsensor.png)
 
 Le capteur de lumière ambiante BH1750 est une alternative aux photoresistances/photodiodes à laquelle nous avons pensé et étudié.
 
 https://learn.adafruit.com/adafruit-bh1750-ambient-light-sensor/pinouts
 
 [Retour](partie_électronique.md)
-
-[Page principale](README.md)
