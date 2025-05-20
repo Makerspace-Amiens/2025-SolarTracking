@@ -1,3 +1,9 @@
+---
+layout: default
+nav_order: 3
+title: BuckBoost
+---
+
 [Retour](partie_électronique.md)
 
 [Page principale](README.md)
