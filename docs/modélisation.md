@@ -1,7 +1,7 @@
 ---
 layout: default
 nav_order: 3
-title: Partie Mécanique
+title: Modélisation
 ---
 
 [Retour](partie_mécanique.md)  
