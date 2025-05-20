@@ -1,8 +1,12 @@
-[Retour](README.md)
+---
+layout: default
+nav_order: 5
+title: Code
+---
 
-<h1>Partie Code</h1>
+# Partie Code
 
-#include <Wire.h>
+`#include <Wire.h>
 #include <BH1750.h>
 
 BH1750 luxSensor;  
@@ -69,8 +73,6 @@ void loop() {
 
     // Attente d'une seconde avant la prochaine lecture
     delay(1000);  
-}
+}`
 
-https://cloudlasalle.sharepoint.com/sites/TEAMS-AMS-PROJETI32-10SuiveurdePanneauSolaire/Documents%20partages/10%20Suiveur%20de%20Panneau%20Solaire/Programmation/Tracking/Tracking.ino?csf=1&web=1&e=h5DgaK
-
-[Retour](README.md)
+[](https://cloudlasalle.sharepoint.com/sites/TEAMS-AMS-PROJETI32-10SuiveurdePanneauSolaire/Documents%20partages/10%20Suiveur%20de%20Panneau%20Solaire/Programmation/Tracking/Tracking.ino?csf=1&web=1&e=h5DgaK)
