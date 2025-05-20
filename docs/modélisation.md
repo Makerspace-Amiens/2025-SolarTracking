@@ -8,21 +8,6 @@ title: Partie Mécanique
 
 # Modélisation
 
-## Plateau pour panneau photovoltaïque
-
-![](Plateau_PV.png)
-
-Plateau dans lequel le panneau photovoltaïque est inséré.
-
----
-
-## Support du plateau
-
-![](Images/Dessin_Tenue_Plateau.png)
-![](Images/Tenue_plateau.png)
-
-Support situé en dessous du plateau.
-
 ---
 
 ## Cache lumineux
@@ -34,21 +19,43 @@ Cache pour bloquer la lumière venant dans la direction opposée à la photorés
 
 ---
 
-## Engrenages de rotation
+## Plateau pour panneau photovoltaïque
 
-![](Images/Engrenage_50.png)
-![](Images/Engrenage_100.png)
+![](Plateau_PV.png)
 
-Engrenages permettant de faire tourner le panneau sur 360°.
+Plateau dans lequel le panneau photovoltaïque est inséré.
 
 ---
 
-## Fixation des moteurs
+## Fixation du moteur sous le plateau
+
+![](Images/Support_moteur.png)
+
+Le moteur est inséré dans le support
 
 ![](Images/Tenue_moteur.png)
-![](Images/Tenue_moteur_2.png)
 
-Accroche pour maintenir les moteurs en place.
+Accroche pour maintenir le moteurs en place dans le support
+
+---
+
+## Support sous le moteur
+
+![](Images/Support_(2).png)
+
+Connecte le support moteur aux engrenages de rotation sur 360°
+
+---
+
+## Engrenages
+
+![](Images/Engrenage_100.png)
+
+Engrenage emboité dans le support sous le moteur
+
+![](Images/Engrenage_50.png)
+
+Engrenages permettant de faire tourner le panneau
 
 ---
 
@@ -61,11 +68,29 @@ Les supports sont attachés à la base pour assurer la stabilité de l’ensembl
 
 ---
 
+## Tabouret/Support
+
+![](Images/tabouret.png)
+
+Base du système
+
+---
+
 ## Plaque
 
-![](Images/Plaque_acry.png)
+![](Images/Modélisation_dessusbase.png)
+![](Images/Modélisation_dessousbase.png)
 
-Plaque d'acrylique qui soutient le système
+Plaque d'acrylique en dessous du système, il y a un espace entre les deux, des vis les relient.
+
+---
+
+## Rendu Final
+
+![](Images/Montage_Face.png)
+![](Images/Montage_Dos.png)
+
+L'assemblage des différentes parties du système
 
 ---
 
