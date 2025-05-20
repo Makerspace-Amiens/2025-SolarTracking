@@ -24,7 +24,8 @@ Vitesse de variation : > 200 kΩ/s
 
 # Tests des photorésistances
 
-![](/Images/tests_photores.png)
+![](../Images/tests_photores.png)
+<img src="../Images/photoresistance.jpg" width="300">
 
 Premiers tests des différentes photorésistances que nous avons obtenues. On peut observer que la photorésistance jaune possède des valeurs inférieures aux autres, nous avons donc décidé d'en utiliser une autre.
 
