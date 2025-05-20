@@ -1,10 +1,11 @@
 ---
 layout: default
 nav_order: 3
-title: Partie électrique
+title: Partie Electrique
 ---
 
 # Partie Electrique
+---
 
 [Voir photorésistance](photores.md)
 
