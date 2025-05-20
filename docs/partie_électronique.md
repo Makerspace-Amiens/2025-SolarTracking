@@ -6,7 +6,7 @@ title: Partie électronique
 
 # Partie Electronique
 
-<Ici vous trouverez les différentes composantes électroniques utilisées pour la réalisation du projet
+> Ici vous trouverez les différentes composantes électroniques utilisées pour la réalisation du projet
 
 [Voir ESP WROOM 32](ESPWROOM.md)
 
