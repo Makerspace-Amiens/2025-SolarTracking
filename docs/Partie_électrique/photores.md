@@ -8,7 +8,7 @@ title: Photorésistance
 [Retour](partie_électrique.md)
 
 # Photorésistances
-![](/Images/photoresistance.jpg)
+![](Partie_électrique/photoresistance.jpg)
 
 [Voir le produit sur Gotronic](https://www.gotronic.fr/art-photoresistance-ldr1000-2152.htm)
 
@@ -24,7 +24,7 @@ Vitesse de variation : > 200 kΩ/s
 
 # Tests des photorésistances
 
-![Photoresistance](partie_électrique/tests_photores.png)
+![Photoresistance](Partie_électrique/tests_photores.png)
 
 Premiers tests des différentes photorésistances que nous avons obtenues. On peut observer que la photorésistance jaune possède des valeurs inférieures aux autres, nous avons donc décidé d'en utiliser une autre.
 
