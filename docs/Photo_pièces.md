@@ -50,7 +50,7 @@ Engrenages permettant de faire tourner le panneau sur 360°.
 ![](Images/Photo_moteur.jpg)
 ![](Images/Photo_moteur2.jpg)
 
-Maintient du moteur en place.
+Maintien du moteur en place.
 
 ---
 
