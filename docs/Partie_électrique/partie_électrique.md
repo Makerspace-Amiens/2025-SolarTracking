@@ -2,6 +2,7 @@
 layout: default
 nav_order: 3
 title: Partie Electrique
+has_children: true
 ---
 
 # Partie Electrique
