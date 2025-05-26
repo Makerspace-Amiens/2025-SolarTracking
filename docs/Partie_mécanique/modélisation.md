@@ -1,6 +1,7 @@
 ---
 layout: default
 nav_order: 3
+parent: Partie Mécanique
 title: Modélisation
 ---
 
