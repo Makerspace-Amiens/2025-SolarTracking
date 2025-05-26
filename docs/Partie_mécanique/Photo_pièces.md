@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 5
+nav_order: 1
 parent: Partie Mécanique
 title: Photos Pièces
 ---
