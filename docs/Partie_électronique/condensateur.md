@@ -1,6 +1,7 @@
 ---
 layout: default
-nav_order: 12
+nav_order: 3
+parent: Partie Electronique
 title: Condensateur
 ---
 
@@ -8,7 +9,7 @@ title: Condensateur
 
 # Condensateur
 
-![](Images/Condensateur_bipolaire_100µF.webp)
+![](../Partie_électronique/Condensateur_bipolaire_100µF.webp)
 
 Condensateur chimique non polarisé à sorties axiales. 
 

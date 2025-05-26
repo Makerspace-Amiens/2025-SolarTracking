@@ -1,6 +1,7 @@
 ---
 layout: default
-nav_order: 8
+nav_order: 4
+parent: Partie Electronique
 title: BuckBoost
 ---
 
@@ -29,7 +30,7 @@ Le LVBoost peut utiliser des tensions aussi faibles que 0,5 Vcc pour les convert
  
 Ne nécessite pas de composants externes. Ses applications sont nombreuses: chargeurs solaires, régulateurs solaires, mini-éoliennes, etc. 
 
-![BUCKboost]("Images/buckboost.webp" width="400")
+![BUCKboost]("../Partie_électronique/buckboost.webp" width="400")
  
 Caractéristiques techniques: 
 - Tension d'entrée: 0,5 à 5 Vcc 

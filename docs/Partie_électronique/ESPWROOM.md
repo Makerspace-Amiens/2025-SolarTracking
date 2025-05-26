@@ -1,6 +1,7 @@
 ---
 layout: default
-nav_order: 9
+nav_order: 1
+parent: Partie Electronique
 title: ESPWroom
 ---
 
@@ -8,7 +9,7 @@ title: ESPWroom
 
 # ESP WROOM 32
 
-![](Images/ESPWROOM.webp")
+![](../Partie_électronique/ESPWROOM.webp")
 
 https://www.electronicshub.org/esp32-pinout/
 

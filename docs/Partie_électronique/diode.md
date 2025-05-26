@@ -1,6 +1,7 @@
 ---
 layout: default
-nav_order: 13
+nav_order: 2
+parent: Partie Electronique
 title: Diode
 ---
 
@@ -8,7 +9,7 @@ title: Diode
 
 # Diode
 
-![](Images/diode_schottky_2A.webp)
+![](../Partie_électronique/diode_schottky_2A.webp)
 
 https://www.gotronic.fr/art-diode-schottky-2a-100v-47755.htm 
 
