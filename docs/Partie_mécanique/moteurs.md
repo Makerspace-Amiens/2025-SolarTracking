@@ -11,21 +11,21 @@ title: Moteurs
 
 ## Moteur S-0008
 
-![](Images/servo_S-0008.jpg)
+![](../Partie_mécanique/servo_S-0008.jpg)
 
 Servomoteur S-0008
 
-![](Images/Sheet_S-0008.png)
+![](../Partie_mécanique/Sheet_S-0008.png)
 
 Data Sheet Servomoteur S-0008
 
 ## Moteur FS90R
 
-![](Images/moteur_FS90R.jpg)
+![](../Partie_mécanique/moteur_FS90R.jpg)
 
 Servomoteur FS90R
 
-![](Images/dimensions_fs90r.jpg)
+![](../Partie_mécanique/dimensions_fs90r.jpg)
 
 Dimensions du servomoteur FS90R
 
