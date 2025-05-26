@@ -6,7 +6,7 @@ title: Cellule photovoltaïque
 ---
 
 
-[Retour](partie_mécanique.md)
+[Retour](partie_électrique.md)
 
 # Cellule Photovoltaïque
 ---
@@ -25,4 +25,4 @@ Dimensions: 160 x 138 x 3 mm
 
 [Voir le produit sur Gotronic](https://www.gotronic.fr/art-cellule-solaire-sol3w-18996.htm)
 
-[Retour](partie_mécanique.md)
+[Retour](partie_électrique.md)

@@ -8,7 +8,6 @@ title: Photorésistance
 [Retour](partie_électrique.md)
 
 # Photorésistances
-
 ![](/Images/photoresistance.jpg)
 
 [Voir le produit sur Gotronic](https://www.gotronic.fr/art-photoresistance-ldr1000-2152.htm)
