@@ -19,8 +19,6 @@ L’objectif de ce projet est de concevoir un suiveur solaire qui ajuste automat
 
 ## Poster
 
-Ici vous publierez le poster de votre projet.
-
 ![Poster projet](Images/POSTER-SUIVEUR_SOLAIRE_PROJ_N°10.png)
 
 ## Vidéo
