@@ -6,19 +6,22 @@ title: Accueil
 
 # Bienvenue sur notre documentation
 
-Bienvenue dans la documentation du projet XY. Ce site a pour but de fournir toutes les informations nécessaires pour comprendre, utiliser et reproduire efficacement notre projet.
+Bienvenue dans la documentation du projet Suiveur Solaire. Ce site a pour but de fournir toutes les informations nécessaires pour comprendre, utiliser et reproduire efficacement notre projet.
 
 ![Illustration vectorielle colorée avec un fond blanc, montrant un atelier équipé pour un projet de conception mécanique, électronique et informatique](images/illustration.png)
 
 ## À propos du Projet
 
-Décrivez ici en quelques lignes l'objectif et l'aperçu général de votre projet. Quel est son but ? À qui est-il destiné ? Quels problèmes cherche-t-il à résoudre ?
+Afin de prévaloir, les énergies renouvelables reposent non seulement sur leur impact environnemental positif, mais aussi sur l’amélioration de leur accessibilité et de leur attractivité. Des avancées technologiques peuvent rendre ces solutions plus performantes et économiquement viables, incitant ainsi un plus grand nombre d’utilisateurs à les adopter. En améliorant le rendement des panneaux photovoltaïques, ces innovations réduisent le coût du kilowatt-heure produit, renforçant ainsi leur compétitivité notamment face aux énergies fossiles.
+
+L’objectif de ce projet est de concevoir un suiveur solaire qui ajuste automatiquement l’orientation d’un panneau photovoltaïque en fonction de la position du soleil.
+
 
 ## Poster
 
 Ici vous publierez le poster de votre projet.
 
-![Poster projet](images/poster.jpg)
+![Poster projet](Images/POSTER-SUIVEUR_SOLAIRE_PROJ_N°10.png)
 
 ## Vidéo
 
