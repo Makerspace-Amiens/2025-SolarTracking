@@ -12,9 +12,7 @@ Bienvenue dans la documentation du projet Suiveur Solaire. Ce site a pour but de
 
 ## À propos du Projet
 
-Afin de prévaloir, les énergies renouvelables reposent non seulement sur leur impact environnemental positif, mais aussi sur l’amélioration de leur accessibilité et de leur attractivité. Des avancées technologiques peuvent rendre ces solutions plus performantes et économiquement viables, incitant ainsi un plus grand nombre d’utilisateurs à les adopter. En améliorant le rendement des panneaux photovoltaïques, ces innovations réduisent le coût du kilowatt-heure produit, renforçant ainsi leur compétitivité notamment face aux énergies fossiles.
-
-L’objectif de ce projet est de concevoir un suiveur solaire qui ajuste automatiquement l’orientation d’un panneau photovoltaïque en fonction de la position du soleil.
+Le projet consiste à concevoir un système intelligent capable d’orienter automatiquement un panneau photovoltaïque vers la direction la plus éclairée du ciel, en suivant la course du soleil. Ce dispositif, appelé suiveur solaire, utilise des capteurs de luminosité pour détecter l’intensité lumineuse et actionner un mécanisme de rotation permettant au panneau de s’aligner avec la source d’ensoleillement maximale.
 
 
 ## Poster

@@ -6,15 +6,15 @@ title: Objectifs du projet
 
 # Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.
+L’optimisation de la production d’énergie solaire représente un enjeu technique important dans le domaine des énergies renouvelables. Parmi les solutions explorées, l’amélioration de l’orientation des panneaux photovoltaïques permet d’augmenter leur rendement en captant davantage de rayonnement solaire au cours de la journée. Ce projet s’inscrit dans cette démarche d’optimisation, en proposant la conception d’un système capable d’ajuster automatiquement la position d’un panneau en fonction de la direction la plus lumineuse.
 
 ## Contexte du Projet
 
-Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.
+Dans un contexte de transition énergétique mondiale, les énergies renouvelables occupent une place centrale pour répondre aux enjeux environnementaux et réduire la dépendance aux énergies fossiles. Toutefois, leur adoption à grande échelle dépend aussi de leur performance et de leur rentabilité économique. Grâce à des avancées technologiques, notamment dans le domaine des capteurs, il devient aujourd’hui possible de rendre les installations photovoltaïques plus efficaces et attractives. Le projet s’inscrit donc dans cette dynamique, en exploitant les possibilités techniques actuelles pour valoriser l’énergie solaire.
 
 ## Objectifs du Projet
 
-Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede.
+L’objectif principal du projet est de développer un suiveur solaire automatisé qui ajuste l’orientation d’un panneau photovoltaïque en fonction de la luminosité détectée sur plusieurs axes. En maximisant l’exposition du panneau au rayonnement solaire, ce système vise à améliorer son rendement énergétique et à rendre la production solaire plus compétitive, notamment en réduisant le coût du kilowatt-heure produit.
 
 # Existant
 
