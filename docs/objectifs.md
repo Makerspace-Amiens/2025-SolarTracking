@@ -18,6 +18,8 @@ L’objectif principal du projet est de développer un suiveur solaire automatis
 
 # Existant
 
+## Ressources
+
 -Logiciel CAO KidCad
 
 -Visual Studio Code (C, C++)
