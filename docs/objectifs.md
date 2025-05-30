@@ -18,8 +18,37 @@ L’objectif principal du projet est de développer un suiveur solaire automatis
 
 # Existant
 
-Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio.
+-Logiciel CAO KidCad
+-Visual Studio Code (C, C++)
+-Arduino
+-Découpeuse Laser
+-Imprimante 3D
 
 # Cahier des Charges
 
-Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbi auctor lorem non justo. Nam lacus libero, pretium at, lobortis vitae, ultricies et, tellus.
+## Besoins fonctionnels
+
+Le système doit pouvoir détecter la direction la plus lumineuse à l’aide de quatre photorésistances placées autour du panneau.
+
+Le dispositif doit être capable de comparer en temps réel les valeurs des photorésistances afin de piloter les deux moteurs (axe horizontal et axe vertical).
+
+Le panneau doit s’orienter automatiquement de manière fluide et précise.
+
+## Modélisation & conception
+Conception assistée par ordinateur (CAO) des pièces structurelles du suiveur solaire.
+
+Réalisation de plusieurs versions de certaines pièces pour tester et améliorer l’assemblage.
+
+Faire des vérifications d’encombrement et des ajustements pour assurer la compatibilité entre les pièces imprimées et les composants.
+
+## Développement logiciel
+Écriture d’un programme capable de lire les valeurs des quatre photorésistances.
+
+Algorithme de comparaison pour déterminer la direction du soleil et ajuster l’orientation du panneau.
+
+Pilotage des moteurs en fonction des résultats obtenus.
+
+## Objectifs finaux
+Avoir un prototype fonctionnel capable de suivre la lumière efficacement.
+
+Améliorer le rendement de captation solaire par rapport à un panneau fixe.
