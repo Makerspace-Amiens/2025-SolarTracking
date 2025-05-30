@@ -41,6 +41,47 @@ Le dispositif doit être capable de comparer en temps réel les valeurs des phot
 
 Le panneau doit s’orienter automatiquement de manière fluide et précise.
 
+## Composantes mécaniques
+Base fixe
+
+Sert de support stable au système complet.
+
+Doit permettre un ancrage solide au sol ou sur un support plat.
+
+Peut être réalisée en bois, métal ou plastique rigide.
+
+Châssis rotatif horizontal
+
+Permet la rotation du panneau sur un axe horizontal (gauche/droite).
+
+Monté sur la base fixe à l’aide d’un servomoteur ou d’un moteur pas-à-pas.
+
+Construit pour supporter la partie supérieure sans trop de jeu mécanique.
+
+Support vertical inclinable (haut/bas)
+
+Fixé sur le châssis horizontal.
+
+Permet au panneau de s'incliner vers le haut ou le bas.
+
+Cadre du panneau solaire
+
+Supporte le panneau solaire.
+
+Fixé au support vertical mobile.
+
+Support des capteurs (LDR)
+
+Bras ou boîtiers destinés à maintenir les 4 photorésistances aux coins du panneau.
+
+Ces supports doivent limiter l’ombre projetée tout en assurant une bonne exposition à la lumière.
+
+Compartiment électronique
+
+Boîtier prévu pour protéger la carte Arduino, les connexions et l’alimentation.
+
+Doit pouvoir se rendre accessible pour les tests et réglages.
+
 ## Modélisation & conception
 Conception assistée par ordinateur (CAO) des pièces structurelles du suiveur solaire.
 
