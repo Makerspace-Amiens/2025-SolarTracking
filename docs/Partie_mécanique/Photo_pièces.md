@@ -26,7 +26,7 @@ title: Photos Assemblage
 
 ![](../Partie_mécanique/Photo_panneausupportV1.jpg)
 
-Support situé en dessous du plateau.
+Support dans lequel est placé le panneau.
 
 ---
 
