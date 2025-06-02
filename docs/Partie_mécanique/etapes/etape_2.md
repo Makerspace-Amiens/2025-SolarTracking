@@ -5,7 +5,7 @@ parent: Etapes de fabrication
 nav_order: 2
 ---
 
-[Retour](etapes.md.md)  
+[Retour](etapes.md)  
 
 # Modélisation
 
@@ -13,8 +13,8 @@ nav_order: 2
 
 ## Cache lumineux
 
-![](../Images/Modélisation_support_photores.jpg)
-![](../Images/Bloque_lumière.png)
+![](Images/Modélisation_support_photores.jpg)
+![](Images/Bloque_lumière.png)
 
 Cache pour bloquer la lumière venant dans la direction opposée à la photorésistance.
 
@@ -50,7 +50,7 @@ Connecte le support moteur aux engrenages de rotation sur 360°
 
 ## Engrenages
 
-![](Images/Engrenage_100.png)
+![](../Images/Engrenage_100.png)
 
 Engrenage emboité dans le support sous le moteur
 
