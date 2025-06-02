@@ -50,7 +50,7 @@ Connecte le support moteur aux engrenages de rotation sur 360°
 
 ## Engrenages
 
-![](../Images/Engrenage_100.png)
+![](Images/Engrenage_100.png)
 
 Engrenage emboité dans le support sous le moteur
 
