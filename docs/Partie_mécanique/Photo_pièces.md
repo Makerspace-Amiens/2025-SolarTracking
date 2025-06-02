@@ -22,13 +22,6 @@ title: Photos Assemblage
 
 ---
 
-## Version 1 du support du plateau
-
-![](../Partie_mécanique/Photo_panneausupportV1.jpg)
-
-Support dans lequel est placé le panneau.
-
----
 
 ## Slip Ring
 
