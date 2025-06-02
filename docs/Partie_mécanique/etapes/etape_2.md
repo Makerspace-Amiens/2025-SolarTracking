@@ -1,11 +1,11 @@
 ---
 layout: default
+title: Assemblage
+parent: Etapes de fabrication
 nav_order: 2
-parent: Partie Mécanique
-title: Modélisation
 ---
 
-[Retour](partie_mécanique.md)  
+[Retour](etapes.md.md)  
 
 # Modélisation
 
@@ -86,4 +86,4 @@ L'assemblage des différentes parties du système
 
 ---
 
-[Retour](partie_mécanique.md)
+[Retour](etapes.md)

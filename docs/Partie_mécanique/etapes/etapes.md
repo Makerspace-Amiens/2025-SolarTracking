@@ -7,14 +7,14 @@ has_children: true
 
 # Étapes de Fabrication
 
-Bienvenue dans la section dédiée aux étapes de fabrication du projet XYZ. Ici, vous trouverez des guides détaillés pour chaque étape du processus de fabrication.
+Bienvenue dans la section dédiée aux étapes de fabrication du projet Suiveur Solaire. Ici, vous trouverez des guides détaillés pour chaque étape du processus de fabrication.
 
 ## Aperçu des Étapes
 
 Le processus de fabrication est divisé en plusieurs étapes clés :
 
 1. [Préparation des Matériaux](etape_1)
-2. [Assemblage](etape_2)
+2. [Modélisation et Assemblage](etape_2)
 3. [Finition]()
 4. [Contrôle Qualité]()
 
