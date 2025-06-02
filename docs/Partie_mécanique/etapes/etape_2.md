@@ -13,8 +13,8 @@ nav_order: 2
 
 ## Cache lumineux
 
-![](../Partie_mécanique/Modélisation_support_photores.jpg)
-![](../Partie_mécanique/Bloque_lumière.png)
+![](Partie_mécanique/Modélisation_support_photores.jpg)
+![](Partie_mécanique/Bloque_lumière.png)
 
 Cache pour bloquer la lumière venant dans la direction opposée à la photorésistance.
 
