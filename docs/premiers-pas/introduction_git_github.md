@@ -1,9 +1,4 @@
----
-layout: default
-title: Introduction à GitHub et Git
-parent: Premiers pas sur le template
-nav_order:
----
+
 
 
 # Introduction Basique à GitHub, GitHub Desktop et VSCode
