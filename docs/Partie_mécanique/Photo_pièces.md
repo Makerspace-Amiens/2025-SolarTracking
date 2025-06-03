@@ -7,7 +7,9 @@ title: Photos Assemblage
 
 [Retour](partie_mécanique.md)
 
-# Pièces
+# Pièces & Assemblage
+
+Dans cette section, nous présentons les différentes pièces mécaniques et électroniques qui composent notre système, ainsi que leur rôle respectif.
 
 ## Support
 
@@ -19,7 +21,6 @@ title: Photos Assemblage
 
 ![](../Partie_mécanique/Photo_support4.jpg)
 
-Support
 Le support constitue la base physique sur laquelle sont fixés les différents éléments du système. Il assure la stabilité de l’ensemble et permet de maintenir les pièces en place pendant le fonctionnement.
 
 ---
