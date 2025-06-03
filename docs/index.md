@@ -10,10 +10,6 @@ Bienvenue dans la documentation du projet Suiveur Solaire. Ce site a pour but de
 
 ![Illustration du projet en cours](Images/illustration_projet.png)
 
-<div style="text-align: center;">
-  <img src="Images/gif_UniLasalleAmiens.gif" width="300" />
-</div>
-
 ## À propos du Projet
 
 Projet - Suiveur de Panneau Solaire 
@@ -44,3 +40,8 @@ Ici vous publierez la vidéo de votre projet.
 <video src="images/intro_amiens.mp4" controls title="Title"  style="width: 100%;"></video>
 
 ---
+
+<div style="text-align: center;">
+  <img src="Images/gif_UniLasalleAmiens.gif" width="300" />
+</div>
+
