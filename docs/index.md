@@ -4,6 +4,9 @@ nav_order: 1
 title: Accueil
 ---
 
+![GIF animé](Images/gif_UniLasalleAmiens.gif)
+
+
 # Bienvenue sur notre documentation
 
 Bienvenue dans la documentation du projet Suiveur Solaire. Ce site a pour but de fournir toutes les informations nécessaires pour comprendre, utiliser et reproduire efficacement notre projet.
