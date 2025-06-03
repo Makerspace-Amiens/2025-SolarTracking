@@ -1,10 +1,3 @@
----
-layout: default
-nav_order: 5
-parent: Partie Electronique
-title: Capteur de lumière
----
-
 [Retour](partie_électronique.md)
 
 # Capteur de lumière
