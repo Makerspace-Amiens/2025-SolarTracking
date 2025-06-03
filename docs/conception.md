@@ -14,7 +14,7 @@ Support situé en dessous du plateau. L’objectif de ce prototype était de tes
 
 # Capteur de lumière
 
-![LightSensor](../Partie_électronique/BH1750_lightsensor.png)
+![LightSensor](Images/BH1750_lightsensor.png)
 
 Le capteur de lumière ambiante BH1750 est une alternative aux photoresistances/photodiodes à laquelle nous avons pensé et étudié. Ce capteur numérique permet de mesurer précisément l’intensité lumineuse ambiante en fournissant une valeur directement exploitable, ce qui simplifierait le traitement des données. Contrairement aux photorésistances, qui nécessitent un calibrage et un traitement plus complexe pour obtenir des mesures fiables, le BH1750 offre une solution compacte et facile à intégrer. Nous avons étudié cette option afin de comparer les avantages et inconvénients des deux types de capteurs dans le contexte de notre système.
 
