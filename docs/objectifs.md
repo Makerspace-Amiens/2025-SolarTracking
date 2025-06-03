@@ -14,24 +14,109 @@ Dans un contexte de transition énergétique mondiale, les énergies renouvelabl
 
 ## Objectifs du Projet
 
-L’objectif principal du projet est de développer un suiveur solaire automatisé qui ajuste l’orientation d’un panneau photovoltaïque en fonction de la luminosité détectée sur plusieurs axes. En maximisant l’exposition du panneau au rayonnement solaire, ce système vise à améliorer son rendement énergétique et à rendre la production solaire plus compétitive, notamment en réduisant le coût du kilowatt-heure produit.
+Les suiveurs solaires permettent d’augmenter la production d’énergie en maintenant une orientation optimale du panneau solaire par rapport au soleil. Toutefois, leur rentabilité est souvent mise en question en raison de la consommation énergétique du système de suivi et du coût supplémentaire par rapport à des installations fixes. 
+
+L’objectif du projet est donc de : 
+
+Concevoir et fabriquer un suiveur de panneau solaire à axe unique ou double axe. 
+
+Développer un programme permettant de contrôler l’orientation du panneau. 
+
+Expérimenter différentes approches de suivi solaire. 
+
+Comparer la production énergétique d’un panneau mobile par rapport à deux panneaux fixes. 
+
+Évaluer la rentabilité du système en prenant en compte la consommation énergétique et les coûts de fabrication. 
+
+Explorer d’éventuelles améliorations, comme l’ajout de capteurs météo ou l’optimisation des algorithmes de suivi. 
 
 # Existant
 
+INSA Strasbourg – Conception d’un tracker solaire et système de refroidissement 
+Un prototype mono-axe développé par des apprentis en génie électrique suit le soleil à l’aide de capteurs de luminosité pour ajuster les angles d’élévation et d’azimut du panneau, puis refroidit le module par un circuit d’arrosage pour maintenir un rendement optimal en forte chaleur  
+Lien : https://genie-electrique.insa-strasbourg.fr/projet-tracker-solaire-et-systeme-de-refroidissement/   
+
+ 
+Mini projet Arduino – Suiveur solaire avec carte Arduino 
+Un document décrit un suiveur solaire mono-axe basé sur une carte Arduino UNO, deux photorésistances et un moteur pas-à-pas, permettant d’orienter automatiquement un petit panneau solaire en fonction de l’ensoleillement mesuré. 
+Lien : https://fr.scribd.com/document/709877572/mini-projet-suivre-solaire-123   
+
+
+Projet de fin d’études – Tracker solaire deux axes 
+Mémoire étudiant détaillant la modélisation mécanique sous SolidWorks d’un suiveur bi-axes, la commande asservie d’un moteur asynchrone en VHDL sur 68HC11, et l’analyse dynamique pour suivre quotidiennement azimut et inclinaison saisonnière  
+Lien : https://www.academia.edu/35347164/M%C3%A9moire_de_Projet_de_fin_d%C3%A9tude_Tracker_solaire   
+
+
+Projet SolidWorks – My Project Solar Traker 
+Étude et simulation d’un suiveur solaire mono-axe réalisée sous SolidWorks 2016 : modélisation de la structure, dimensionnement statique pour garantir la résistance mécanique, et validation numérique avant prototypage  
+Lien : https://fr.scribd.com/document/399745937/My-Project-Solar-Traker  
+
 ## Ressources
 
--Logiciel CAO KidCad
+Logiciel(s) : 
 
--Visual Studio Code (C, C++)
+OneShape (Découpeuse Laser & Imprimante 3D)
 
--Arduino
+Fusion 360 
 
--Découpeuse Laser
+Cura 
 
--Imprimante 3D
+Inkscape 
+
+Arduino IDE
 
 
 # Cahier des Charges
+
+Cahier des charges 
+
+Objectifs principaux : 
+
+Concevoir et fabriquer un suiveur de panneau solaire efficace. 
+
+Développer un algorithme de suivi optimisé. 
+
+Comparer les performances énergétiques avec une installation fixe. 
+
+Analyser la rentabilité du système en tenant compte des coûts et de la consommation énergétique. 
+
+ 
+
+Contraintes techniques : 
+
+Utilisation de moteurs pas à pas ou servomoteurs pour une orientation du panneau précise.  
+
+Capteurs de luminosité (photorésistance) pour déterminer la position optimale. 
+
+Conception d’un châssis léger et robuste. 
+
+Possibilité d’ajouter des capteurs météo pour améliorer la prise de décision. 
+
+Livrables attendus : 
+
+Un prototype fonctionnel de suiveur de panneau solaire. 
+
+Un programme de contrôle et d’optimisation de l’orientation. 
+
+Une étude comparative de la production énergétique avec une installation fixe. 
+
+Une analyse de la rentabilité du système. 
+
+Une documentation technique sur la conception et le développement du suiveur solaire. 
+
+Domaine à travailler : 
+
+Mécanique & Fabrication : Conception et assemblage de la structure du suiveur. 
+
+Programmation embarquée : Développement des algorithmes de suivi solaire. 
+
+Modélisation & Simulation : Étude des performances et optimisation des mouvements. 
+
+Systèmes de contrôle : Implémentation et optimisation du suivi solaire. 
+
+Expérimentation & Analyse : Tests et ajustements pour maximiser la production énergétique. 
+
+Ce projet est une excellente opportunité pour explorer les énergies renouvelables et l’optimisation des systèmes solaires, tout en apportant une nouvelle plateforme expérimentale à l’association UniMakers. 
 
 ## Besoins fonctionnels
 

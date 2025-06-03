@@ -8,12 +8,19 @@ title: Accueil
 
 Bienvenue dans la documentation du projet Suiveur Solaire. Ce site a pour but de fournir toutes les informations nécessaires pour comprendre, utiliser et reproduire efficacement notre projet.
 
-![Illustration vectorielle colorée avec un fond blanc, montrant un atelier équipé pour un projet de conception mécanique, électronique et informatique](Images/illustration_projet.png)
+![Illustration du projet en cours](Images/illustration_projet.png)
 
 ## À propos du Projet
 
-Le projet consiste à concevoir un système intelligent capable d’orienter automatiquement un panneau photovoltaïque vers la direction la plus éclairée du ciel, en suivant la course du soleil. Ce dispositif, appelé suiveur solaire, utilise des capteurs de luminosité pour détecter l’intensité lumineuse et actionner un mécanisme de rotation permettant au panneau de s’aligner avec la source d’ensoleillement maximale.
+Projet - Suiveur de Panneau Solaire 
 
+Ce projet propose de concevoir un suiveur de panneau solaire à l’aide d’un système motorisé permettant d’optimiser l’orientation d’un panneau en fonction de la position du soleil. L’objectif est d’expérimenter et d’évaluer l’efficacité énergétique d’un tel système par rapport à l’utilisation de deux panneaux fixes orientés dans des directions opposées.
+
+Catégorie(s) : 
+
+Projets I3 2025 
+
+Groupe : Dimanche Alex, Drapich Nicolas, Tromeur Anton, Carel Romain 
 
 ## Poster
 
