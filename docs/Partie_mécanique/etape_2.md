@@ -7,7 +7,7 @@ nav_order: 2
 
 [Retour](etapes.md)  
 
-# Modélisation
+# Etapes de conception & Modélisation
 
 ---
 

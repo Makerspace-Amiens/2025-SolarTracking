@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 3
+nav_order: 1
 parent: Partie Mécanique
 title: Photos Assemblage
 ---
@@ -19,15 +19,16 @@ title: Photos Assemblage
 
 ![](../Partie_mécanique/Photo_support4.jpg)
 
+Support
+Le support constitue la base physique sur laquelle sont fixés les différents éléments du système. Il assure la stabilité de l’ensemble et permet de maintenir les pièces en place pendant le fonctionnement.
 
 ---
-
 
 ## Slip Ring
 
 ![](../Partie_mécanique/Photo_flipring.jpg)
 
-Le slip ring permet la rotation du système
+Le slip ring (ou collecteur tournant) permet de transmettre des signaux électriques d’une partie fixe à une partie en rotation continue. Dans ce projet, il est crucial pour permettre au panneau de tourner sur 360° sans emmêler ou casser les câbles électriques, assurant ainsi un mouvement fluide et constant.
 
 ---
 
@@ -35,7 +36,7 @@ Le slip ring permet la rotation du système
 
 ![](../Partie_mécanique/Photo_engrenages.jpg)
 
-Engrenages permettant de faire tourner le panneau sur 360°.
+Les engrenages de rotation transmettent le mouvement du moteur vers le support du panneau. Ils permettent une rotation contrôlée et précise, sur 360°.
 
 ---
 
@@ -44,7 +45,7 @@ Engrenages permettant de faire tourner le panneau sur 360°.
 ![](../Partie_mécanique/Photo_moteur.jpg)
 ![](../Partie_mécanique/Photo_moteur2.jpg)
 
-Maintien du moteur en place.
+Cette pièce permet de fixer solidement le moteur sous le plateau du panneau photovoltaïque. Elle maintient le moteur en position, évitant tout déplacement ou vibration qui pourrait gêner le fonctionnement des engrenages ou désaligner le système.
 
 ---
 
@@ -53,6 +54,7 @@ Maintien du moteur en place.
 ![](../Partie_mécanique/Photo_accu.jpg)
 ![](../Partie_mécanique/Photo_accucharger.jpg)
 
+L’accumulateur (ou batterie) stocke l’énergie produite par le panneau solaire, tandis que le chargeur régule la charge pour protéger la batterie et optimiser son autonomie. Ce système d’alimentation permet de faire fonctionner le dispositif même en l’absence immédiate de soleil.
 
 ---
 
@@ -60,7 +62,7 @@ Maintien du moteur en place.
 
 ![](../Partie_mécanique/Photo_plaquecuivre.jpg)
 
-Plaque de cuivre qui sert de support afin de souder les éléments électroniques
+Il s’agit d’une plaque en cuivre ou en matériau conducteur utilisée comme base pour souder les composants électroniques. Elle sert à organiser et connecter proprement les éléments du circuit électrique
 
 ---
 
@@ -71,4 +73,4 @@ Plaque de cuivre qui sert de support afin de souder les éléments électronique
 ---
 
 
-[Retour](partie_mécanique.md)  
+[Retour](partie_mécanique.md)
