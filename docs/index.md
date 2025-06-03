@@ -10,7 +10,9 @@ Bienvenue dans la documentation du projet Suiveur Solaire. Ce site a pour but de
 
 ![Illustration du projet en cours](Images/illustration_projet.png)
 
-<img src="Images/gif_UniLasalleAmiens.gif" width="200" />
+<div style="text-align: center;">
+  <img src="Images/gif_UniLasalleAmiens.gif" width="300" />
+</div>
 
 ## À propos du Projet
 
