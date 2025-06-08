@@ -26,13 +26,17 @@ Projets I3 2025
 
 Groupe : Dimanche Alex, Drapich Nicolas, Tromeur Anton, Carel Romain
 
-Durant la journée des projets nous avons présenté notre Suiveur Solaire pour la première fois. Nous avons expliqué son fonctionnement avec la maquette. Puis, à l'aide d'un projecteur, nous avons simulé le passage du Soleil qui est suivi par le panneau solaire.
-
 ---
+
+Durant la journée des projets nous avons présenté notre Suiveur Solaire pour la première fois. Nous avons expliqué son fonctionnement avec la maquette. Puis, à l'aide d'un projecteur, nous avons simulé le passage du Soleil qui est suivi par le panneau solaire.
 
 Notre projet a remporté le Prix du Vote du Public à cette occasion !
 
-![Prix du public](Images/prix_du_public.png)
+<div style="text-align: center;">
+  <img src="Images/prix_du_public.png" alt="Prix du public" width="250" />
+</div>
+
+![Prix du public](Images/prixdupublic2.webp)
 
 ---
 
@@ -61,4 +65,3 @@ Notre projet a remporté le Prix du Vote du Public à cette occasion !
   <img src="Images/gif_UniLasalleAmiens.gif" width="300" />
 </div>
 
-![Prix du public](Images/prixdupublic2.webp)
