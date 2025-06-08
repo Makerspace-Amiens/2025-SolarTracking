@@ -57,4 +57,4 @@ Ici vous publierez la vidéo de votre projet.
   <img src="Images/gif_UniLasalleAmiens.gif" width="300" />
 </div>
 
-![Prix du public](Images/prixdupublic2.png)
+![Prix du public](Images/prixdupublic2.webp)
