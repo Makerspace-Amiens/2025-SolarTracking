@@ -83,5 +83,5 @@ Le circuit électronique est entièrement intégré à l’intérieur de la base
 L’assemblage final combine toutes les pièces mécaniques et électroniques dans un ensemble cohérent et fonctionnel. La structure permet un double axe de rotation, un câblage protégé et un accès simplifié aux composants internes.
 
 <video width="600" controls>
-  <source src="Partie_mécanique/video_meca.mov" type="video/mp4">
+  <source src="../Partie_mécanique/video_meca.mov" type="video/mp4">
 </video>
