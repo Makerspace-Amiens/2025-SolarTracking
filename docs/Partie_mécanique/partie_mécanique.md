@@ -16,7 +16,7 @@ Dans cette section, nous présentons les différentes pièces mécaniques et él
 
 ## Cache lumière
 
-![](Images/support_ptd.png)
+![](Partie_mécanique/support_ptd.png)
 
 Le cache lumière est positionné aux quatre coins du panneau solaire. Il sert à empêcher que les faisceaux lumineux ne se croisent entre les différentes photorésistances. Cela permet à chaque capteur de mesurer une luminosité plus distincte, en fonction de l’orientation du soleil. Ainsi, le système peut plus facilement détecter les écarts et orienter le panneau avec plus de précision.
 
@@ -24,7 +24,7 @@ Le cache lumière est positionné aux quatre coins du panneau solaire. Il sert �
 
 ## Plateau du panneau solaire
 
-![](Images/support_p.png)
+![](Partie_mécanique/support_p.png)
 
 Le plateau supporte le panneau solaire et permet son orientation face au soleil. Il s’agit de la partie mobile du système. Sa structure interne est conçue pour accueillir les composants électroniques : la carte PCB, la carte Arduino Xiao, ainsi que tout le câblage nécessaire. L’agencement de ce plateau facilite l’accès et l’entretien du circuit.
 
@@ -32,7 +32,7 @@ Le plateau supporte le panneau solaire et permet son orientation face au soleil.
 
 ## Tenues de moteurs
 
-![](Images/support_m.png)
+![](Partie_mécanique/support_m.png)
 
 Les supports moteurs permettent de fixer solidement les moteurs à leurs emplacements respectifs. Ils assurent la stabilité des moteurs pendant le fonctionnement et maintiennent l’alignement des axes de rotation.
 
@@ -40,7 +40,7 @@ Les supports moteurs permettent de fixer solidement les moteurs à leurs emplace
 
 ## Rotation selon l’axe Y
 
-![](Images/support_haut.png)
+![](Partie_mécanique/support_haut.png)
 
 La rotation horizontale est assurée par un moteur pas à pas placé dans une pièce imprimée en rouge et fixé à la base verte. Ce moteur entraîne la structure supérieure par l’intermédiaire d’un palonnier métallique et d’une pièce en plastique. Cette configuration permet une orientation précise sur l’axe Est-Ouest, en fonction de la position du soleil.
 
@@ -48,7 +48,7 @@ La rotation horizontale est assurée par un moteur pas à pas placé dans une pi
 
 ## Rotation selon l’axe Z
 
-![](Images/engrenages.png)
+![](Partie_mécanique/engrenages.png)
 
 ## Engrenage et transmission
 
@@ -56,13 +56,13 @@ La rotation verticale est assurée par un moteur à courant continu, couplé à 
 
 Un roulement à billes 608ZZ est intégré au centre du support vert et de l’engrenage gris, assurant une rotation fluide autour de l’axe. L’ensemble est ensuite monté sur une tige filetée de 8 mm, bloquée entre deux écrous. Cela permet un axe libre et stable, que le moteur peut faire pivoter pour orienter le panneau en hauteur.
 
-![](Images/supports_m.png)
+![](Partie_mécanique/supports_m.png)
 
 ---
 
 ## Tension de la courroie
 
-![](Images/support_b.png)
+![](Partie_mécanique/support_b.png)
 
 Pour garantir une tension correcte de la courroie GT2, le moteur à courant continu est monté sur une plaque coulissante. Cette plaque est fixée à la base à l’aide de boulons,
 
@@ -78,10 +78,10 @@ Le circuit électronique est entièrement intégré à l’intérieur de la base
 
 ## Assemblage final
 
-![](Images/fini!.png)
+![](Partie_mécanique/fini!.png)
 
 L’assemblage final combine toutes les pièces mécaniques et électroniques dans un ensemble cohérent et fonctionnel. La structure permet un double axe de rotation, un câblage protégé et un accès simplifié aux composants internes.
 
 <video width="600" controls>
-  <source src="Images/video_meca.mov" type="video/mp4">
+  <source src="Partie_mécanique/video_meca.mov" type="video/mp4">
 </video>
