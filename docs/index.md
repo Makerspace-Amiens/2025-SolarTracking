@@ -56,6 +56,8 @@ Ici vous publierez la vidéo de votre projet.
 
 ---
 
+### Documents :
+
 [Objectif du projet & cahier des charges](objectifs.md)
 
 [Travail réalisé](etapes.md)
