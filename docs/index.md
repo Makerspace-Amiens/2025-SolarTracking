@@ -32,7 +32,7 @@ Durant la journée des projets nous avons présenté notre Suiveur Solaire pour 
 
 Notre projet a remporté le Prix du Vote du Public à cette occasion !
 
-![Prix du public](Images/prix_du_public.png)
+![Prix du public](Images/prix_du_public_.png)
 
 ## Poster
 
@@ -57,3 +57,4 @@ Ici vous publierez la vidéo de votre projet.
   <img src="Images/gif_UniLasalleAmiens.gif" width="300" />
 </div>
 
+![Prix du public](Images/prixdupublic2.png)
