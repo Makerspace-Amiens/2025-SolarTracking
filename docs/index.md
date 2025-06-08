@@ -34,9 +34,12 @@ Notre projet a remporté le Prix du Vote du Public à cette occasion !
 
 ![Prix du public](Images/prix_du_public.png)
 
+---
+
 ## Poster
 
 ![Poster projet](Images/POSTER-SUIVEUR_SOLAIRE_PROJ_N°10.png)
+
 
 ## Vidéo
 
@@ -50,6 +53,12 @@ Ici vous publierez la vidéo de votre projet.
 - Si en stockage local : <50mo
 
 <video src="images/intro_amiens.mp4" controls title="Title"  style="width: 100%;"></video>
+
+---
+
+[Objectif du projet & cahier des charges](objectifs.md)
+
+[Travail réalisé](etapes.md)
 
 ---
 
