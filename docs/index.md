@@ -12,19 +12,31 @@ Bienvenue dans la documentation du projet Suiveur Solaire. Ce site a pour but de
 
 ## À propos du Projet
 
-Projet - Suiveur de Panneau Solaire 
+# Problématique
+
+L'utilisation d'un suiveur solaire permet-il d'augmenter le rendement d'un panneau photovoltaïque afin d'améliorer leur attractivité ?
+
+# Projet - Suiveur de Panneau Solaire 
 
 Ce projet propose de concevoir un suiveur de panneau solaire à l’aide d’un système motorisé permettant d’optimiser l’orientation d’un panneau en fonction de la position du soleil. L’objectif est d’expérimenter et d’évaluer l’efficacité énergétique d’un tel système par rapport à l’utilisation de deux panneaux fixes orientés dans des directions opposées.
 
-Catégorie(s) : 
+Catégorie : 
 
-Projets I3 2025 
+Projets I3 2025
 
-Groupe : Dimanche Alex, Drapich Nicolas, Tromeur Anton, Carel Romain 
+Groupe : Dimanche Alex, Drapich Nicolas, Tromeur Anton, Carel Romain
+
+Durant la journée des projets nous avons présenté notre Suiveur Solaire pour la première fois. Nous avons expliqué son fonctionnement avec la maquette. Puis, à l'aide d'un projecteur, nous avons simulé le passage du Soleil qui est suivi par le panneau solaire.
+
+---
+
+Notre projet a remporté le Prix du Vote du Public à cette occasion !
+
+![Prix du public](Images/POSTER-SUIVEUR_SOLAIRE_PROJ_N°10.png)
 
 ## Poster
 
-![Poster projet](Images/POSTER-SUIVEUR_SOLAIRE_PROJ_N°10.png)
+![Poster projet](Images/prix_du_public.png)
 
 ## Vidéo
 
