@@ -115,7 +115,7 @@ Ce projet est une excellente opportunité pour explorer les énergies renouvelab
 
 ## Budget :
 
-![Tableau Budget](tab_budget.png)
+![Tableau Budget](Images/tab_budget.png)
 
 Le projet I3 est à présent terminé, et il a été mené à bien tout en respectant notre budget initial de 300 euros. Au total, nous avons utilisé 77,54 euros, ce qui montre une bonne gestion des ressources. Il nous reste donc 172,46 euros non dépensés.
 
