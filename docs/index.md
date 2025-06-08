@@ -32,11 +32,11 @@ Durant la journée des projets nous avons présenté notre Suiveur Solaire pour 
 
 Notre projet a remporté le Prix du Vote du Public à cette occasion !
 
-![Prix du public](Images/POSTER-SUIVEUR_SOLAIRE_PROJ_N°10.png)
+![Prix du public](Images/prix_du_public.png)
 
 ## Poster
 
-![Poster projet](Images/prix_du_public.png)
+![Poster projet](Images/POSTER-SUIVEUR_SOLAIRE_PROJ_N°10.png)
 
 ## Vidéo
 
