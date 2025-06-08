@@ -44,7 +44,7 @@ Notre projet a remporté le Prix du Vote du Public à cette occasion !
 ## Vidéo de présentation du projet
 
 
-<iframe width="560" height="315" src="https://youtu.be/pZWbpUj08p4" frameborder="0" allowfullscreen></iframe>
+[Regarder la vidéo](https://youtu.be/pZWbpUj08p4)
 
 
 ---
