@@ -41,18 +41,11 @@ Notre projet a remporté le Prix du Vote du Public à cette occasion !
 ![Poster projet](Images/POSTER-SUIVEUR_SOLAIRE_PROJ_N°10.png)
 
 
-## Vidéo
+## Vidéo de présentation du projet
 
-Ici vous publierez la vidéo de votre projet. 
-- Moins de 1min30
-- Présentation du projet 
-- Des explication du fonctionnement du projet
-- Des vues du projet / Prototype / Application etc... 
-- Des plans du fonctionnement (même basique ou des éléments séparés)
-- Une conclusion
-- Si en stockage local : <50mo
 
-<video src="images/intro_amiens.mp4" controls title="Title"  style="width: 100%;"></video>
+<iframe width="560" height="315" src="https://youtu.be/pZWbpUj08p4" frameborder="0" allowfullscreen></iframe>
+
 
 ---
 
