@@ -66,58 +66,6 @@ Inkscape
 Arduino IDE
 
 
-# Cahier des Charges
-
-Cahier des charges 
-
-Objectifs principaux : 
-
-Concevoir et fabriquer un suiveur de panneau solaire efficace. 
-
-Développer un algorithme de suivi optimisé. 
-
-Comparer les performances énergétiques avec une installation fixe. 
-
-Analyser la rentabilité du système en tenant compte des coûts et de la consommation énergétique. 
-
- 
-
-Contraintes techniques : 
-
-Utilisation de moteurs pas à pas ou servomoteurs pour une orientation du panneau précise.  
-
-Capteurs de luminosité (photorésistance) pour déterminer la position optimale. 
-
-Conception d’un châssis léger et robuste. 
-
-Possibilité d’ajouter des capteurs météo pour améliorer la prise de décision. 
-
-Livrables attendus : 
-
-Un prototype fonctionnel de suiveur de panneau solaire. 
-
-Un programme de contrôle et d’optimisation de l’orientation. 
-
-Une étude comparative de la production énergétique avec une installation fixe. 
-
-Une analyse de la rentabilité du système. 
-
-Une documentation technique sur la conception et le développement du suiveur solaire. 
-
-Domaine à travailler : 
-
-Mécanique & Fabrication : Conception et assemblage de la structure du suiveur. 
-
-Programmation embarquée : Développement des algorithmes de suivi solaire. 
-
-Modélisation & Simulation : Étude des performances et optimisation des mouvements. 
-
-Systèmes de contrôle : Implémentation et optimisation du suivi solaire. 
-
-Expérimentation & Analyse : Tests et ajustements pour maximiser la production énergétique. 
-
-Ce projet est une excellente opportunité pour explorer les énergies renouvelables et l’optimisation des systèmes solaires, tout en apportant une nouvelle plateforme expérimentale à l’association UniMakers. 
-
 ## Besoins fonctionnels
 
 Le système doit pouvoir détecter la direction la plus lumineuse à l’aide de quatre photorésistances placées autour du panneau.
