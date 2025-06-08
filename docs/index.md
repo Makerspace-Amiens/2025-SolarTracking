@@ -46,7 +46,7 @@ Le projet devait répondre à plusieurs contraintes :
 
 · Analyse énergétique et budgétaire.
 
-![Voir le cahier des charges complet](cahier_des_charges.md)
+[Voir le cahier des charges complet](cahier_des_charges.md)
 
 ---
 
