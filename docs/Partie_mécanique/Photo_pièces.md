@@ -1,9 +1,4 @@
----
-layout: default
-nav_order: 1
-parent: Partie Mécanique
-title: Photos Assemblage
----
+
 
 [Retour](partie_mécanique.md)
 
