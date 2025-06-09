@@ -15,7 +15,7 @@ Le second code correspond à la démonstration du suiveur solaire. Il met en œu
 Ces deux codes sont complémentaires. Ils permettent de mieux appréhender les enjeux techniques de notre projet et démontrent son bon fonctionnement lors de la présentation finale.
 
 
-Test des photorésistances
+## Test des photorésistances
 
 Le premier code développé a pour objectif principal de calibrer les photorésistances utilisées dans notre système. Cette étape est importante afin de garantir une précision élevée lors de la détection de la luminosité ambiante.
 
@@ -25,14 +25,72 @@ Dans ce code, nous avons comparé les valeurs obtenues par les photorésistances
 
 Il est important de noter que tous les tests ont été réalisés sur deux types de cartes différentes. Cependant, après analyse, nous avons décidé de retenir uniquement l’ESP32 S3 Xiao, qui a donné les meilleurs résultats en termes de stabilité et de performance pour ce projet.
 
+<pre> ```cpp // 
+#include <Wire.h>
+#include <BH1750.h>
 
-```#include <Wire.h> #include <BH1750.h> BH1750 luxSensor;
+BH1750 luxSensor;
 
-//définition des constantes const int analogPinHG = A0; const int analogPinHD = A1; const int analogPinBG = A2; const int analogPinBD = A4; void setup() { // initialisation du capteur Serial.begin(115200); Wire.begin(4, 5); delay(10000); if (luxSensor.begin(BH1750::CONTINUOUS_HIGH_RES_MODE, 0x23)) { Serial.println("Capteur BH1750 initialisé !"); } } // initialisation des valeurs float voltageadjHG; float voltageadjHD; float voltageadjBG; float voltageadjBD; void loop() { // lecture des valeurs float lux = luxSensor.readLightLevel(); int adcValueHG = analogRead(analogPinHG); float voltageHG = adcValueHG * (3.3 / 4095.0); int adcValueHD = analogRead(analogPinHD); float voltageHD = adcValueHD * (3.3 / 4095.0); int adcValueBG = analogRead(analogPinBG); float voltageBG = adcValueBG * (3.3 / 4095.0); int adcValueBD = analogRead(analogPinBD); float voltageBD = adcValueBD * (3.3 / 4095.0); /*Serial.print("Tension sur GPIO13 : "); Serial.print(voltage13); Serial.println(" V"); Serial.print("Tension sur GPIO14 : "); Serial.print(voltage14); Serial.println(" V"); Serial.print("Tension sur GPIO26 : "); Serial.print(voltage26); Serial.println(" V"); Serial.print("Tension sur GPIO27 : ");
+// Définition des constantes pour les pins analogiques
+const int analogPinHG = A0;
+const int analogPinHD = A1;
+const int analogPinBG = A2;
+const int analogPinBD = A4;
 
-Serial.print(voltage27); Serial.println(" V");*/ // affichage des valeurs Serial.print(lux, 3); Serial.print(", "); Serial.print(voltageHG, 3); Serial.print(", "); Serial.print(voltageHD, 3); Serial.print(", "); Serial.print(voltageBG, 3); Serial.print(", "); Serial.print(voltageBD, 3); Serial.println(); // attente d'une seconde avant la prochaine lecture delay(1000); }```
+// Initialisation des tensions
+float voltageadjHG;
+float voltageadjHD;
+float voltageadjBG;
+float voltageadjBD;
 
+void setup() {
+  // Initialisation de la communication série
+  Serial.begin(115200);
 
+  // Initialisation de la communication I2C (SDA=4, SCL=5)
+  Wire.begin(4, 5);
+  delay(10000);
+
+  // Initialisation du capteur BH1750
+  if (luxSensor.begin(BH1750::CONTINUOUS_HIGH_RES_MODE, 0x23)) {
+    Serial.println("Capteur BH1750 initialisé !");
+  }
+}
+
+void loop() {
+  // Lecture de la luminosité en lux
+  float lux = luxSensor.readLightLevel();
+
+  // Lecture des tensions sur chaque photorésistance
+  int adcValueHG = analogRead(analogPinHG);
+  float voltageHG = adcValueHG * (3.3 / 4095.0);
+
+  int adcValueHD = analogRead(analogPinHD);
+  float voltageHD = adcValueHD * (3.3 / 4095.0);
+
+  int adcValueBG = analogRead(analogPinBG);
+  float voltageBG = adcValueBG * (3.3 / 4095.0);
+
+  int adcValueBD = analogRead(analogPinBD);
+  float voltageBD = adcValueBD * (3.3 / 4095.0);
+
+  // Affichage des valeurs sur le moniteur série
+  Serial.print(lux, 3);
+  Serial.print(", ");
+  Serial.print(voltageHG, 3);
+  Serial.print(", ");
+  Serial.print(voltageHD, 3);
+  Serial.print(", ");
+  Serial.print(voltageBG, 3);
+  Serial.print(", ");
+  Serial.print(voltageBD, 3);
+  Serial.println();
+
+  // Pause d'une seconde entre deux mesures
+  delay(1000);
+}
+
+``` </pre>
 
 
 Programme de démonstration
@@ -65,15 +123,103 @@ Pour une utilisation en extérieur, il faut ajouter des caches pour réduire l'i
 
 Pour finir, ce système ajuste dynamiquement l'orientation du panneau solaire en temps réel. Il se base sur les différences d'intensité lumineuse détectées par les photorésistances. Cela permet d'optimiser la captation d’énergie en orientant constamment le panneau vers la source lumineuse la plus intense.
 
-```
-#include <Wire.h> #include <ESP32Servo.h> //initialisation des pins const int analogPinHD = A0; const int analogPinHG = A1; const int analogPinBG = A2; const int analogPinBD = A3; // déclaration des servomoteurs Servo servoHorizontal; Servo servoVertical;
 
-#include <Wire.h> #include <ESP32Servo.h> //initialisation des pins const int analogPinHD = A0; const int analogPinHG = A1; const int analogPinBG = A2; const int analogPinBD = A3; // déclaration des servomoteurs Servo servoHorizontal; Servo servoVertical; //position de base du suiveur int posH = 90; int posV = 90; //déclaration des pins pout les moteurs const int pinServoH = D9; const int pinServoV = D8; //Choix des tolérances de mouvement const float toleranceV = 0.50; const float toleranceH = 1.00; int angle = 90; void setup() { //initialisation Serial.begin(115200); delay(1000); servoHorizontal.attach(pinServoH); servoVertical.attach(pinServoV); servoVertical.write(angle); servoHorizontal.write(95); } void loop() { //lecture des valeurs pour les photorésistances float hd = analogRead(analogPinHD) * (3.3 / 4095.0); float hg = analogRead(analogPinHG) * (3.3 / 4095.0); float bg = analogRead(analogPinBG) * (3.3 / 4095.0); float bd = analogRead(analogPinBD) * (3.3 / 4095.0); //print des valeurs Serial.print(hd, 3); Serial.print(", "); Serial.print(hg, 3); Serial.print(", "); Serial.print(bg, 3); Serial.print(", ");
+<pre> ```cpp // 
 
-Serial.print(bd, 3); Serial.println(); // Estimation des variations float diff_verticale1 = (hg + hd) - (bg + bd); float diff_verticale2 = (bg + bd) - (hg + hd); float diff_horizontale1 = (hg + bg) - (hd + bd); float diff_horizontale2 = (hd + bd) - (hg + bg); // Conditions pour les mouvements horizontales if (diff_horizontale1 > toleranceH) { servoHorizontal.write(90); // 1/8 de tour delay(160); // temps pur 1/8 de tour servoHorizontal.write(95); //Arrêt } else if (diff_horizontale2 > toleranceH) { servoHorizontal.write(97); // 1/8 de tour delay(147);// temps pur 1/8 de tour servoHorizontal.write(95);//Arrêt } // Conditions pour les mouvements verticales if (angle > 44 && angle < 136) { if (diff_verticale1 > toleranceV && angle < 126) { angle += 10; servoVertical.write(angle); } else if (diff_verticale2 > toleranceV && angle > 54) { angle -= 10; servoVertical.write(angle); } }
+#include <Wire.h>
+#include <ESP32Servo.h>
 
-//Retour position initiale if (hd > 2.800 && hg > 2.800 && bd > 2.800 && bg > 2.800) { servoVertical.write(90); angle = 90; } //delay delay(150); }
-```
+// Initialisation des pins analogiques
+const int analogPinHD = A0;
+const int analogPinHG = A1;
+const int analogPinBG = A2;
+const int analogPinBD = A3;
+
+// Déclaration des servomoteurs
+Servo servoHorizontal;
+Servo servoVertical;
+
+// Position de base
+int posH = 90;
+int posV = 90;
+
+// Pins des servomoteurs
+const int pinServoH = D9;
+const int pinServoV = D8;
+
+// Tolérances de détection
+const float toleranceV = 0.50;
+const float toleranceH = 1.00;
+
+// Angle vertical initial
+int angle = 90;
+
+void setup() {
+  Serial.begin(115200);
+  delay(1000);
+
+  // Attachement des servos
+  servoHorizontal.attach(pinServoH);
+  servoVertical.attach(pinServoV);
+
+  // Position initiale
+  servoVertical.write(angle);
+  servoHorizontal.write(95);
+}
+
+void loop() {
+  // Lecture des tensions des photorésistances
+  float hd = analogRead(analogPinHD) * (3.3 / 4095.0);
+  float hg = analogRead(analogPinHG) * (3.3 / 4095.0);
+  float bg = analogRead(analogPinBG) * (3.3 / 4095.0);
+  float bd = analogRead(analogPinBD) * (3.3 / 4095.0);
+
+  // Affichage des valeurs
+  Serial.print(hd, 3); Serial.print(", ");
+  Serial.print(hg, 3); Serial.print(", ");
+  Serial.print(bg, 3); Serial.print(", ");
+  Serial.print(bd, 3); Serial.println();
+
+  // Calcul des différences de lumière
+  float diff_verticale1 = (hg + hd) - (bg + bd);
+  float diff_verticale2 = (bg + bd) - (hg + hd);
+  float diff_horizontale1 = (hg + bg) - (hd + bd);
+  float diff_horizontale2 = (hd + bd) - (hg + bg);
+
+  // Mouvements horizontaux
+  if (diff_horizontale1 > toleranceH) {
+    servoHorizontal.write(90);   // Tourne dans un sens
+    delay(160);
+    servoHorizontal.write(95);   // Arrêt
+  }
+  else if (diff_horizontale2 > toleranceH) {
+    servoHorizontal.write(97);   // Tourne dans l'autre sens
+    delay(147);
+    servoHorizontal.write(95);   // Arrêt
+  }
+
+  // Mouvements verticaux
+  if (angle > 44 && angle < 136) {
+    if (diff_verticale1 > toleranceV && angle < 126) {
+      angle += 10;
+      servoVertical.write(angle);
+    }
+    else if (diff_verticale2 > toleranceV && angle > 54) {
+      angle -= 10;
+      servoVertical.write(angle);
+    }
+  }
+
+  // Repositionnement si lumière très forte partout
+  if (hd > 2.800 && hg > 2.800 && bd > 2.800 && bg > 2.800) {
+    servoVertical.write(90);
+    angle = 90;
+  }
+
+  // Pause entre deux mesures
+  delay(150);
+}
+ ``` </pre>
 
 
 
