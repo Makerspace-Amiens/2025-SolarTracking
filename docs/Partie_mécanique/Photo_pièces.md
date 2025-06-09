@@ -48,30 +48,5 @@ Les engrenages de rotation transmettent le mouvement du moteur vers le support d
 
 Cette pièce permet de fixer solidement le moteur sous le plateau du panneau photovoltaïque. Elle maintient le moteur en position, évitant tout déplacement ou vibration qui pourrait gêner le fonctionnement des engrenages ou désaligner le système.
 
----
-
-## Accu et chargeur
-
-![](../Partie_mécanique/Photo_accu.jpg)
-![](../Partie_mécanique/Photo_accucharger.jpg)
-
-L’accumulateur (ou batterie) stocke l’énergie produite par le panneau solaire, tandis que le chargeur régule la charge pour protéger la batterie et optimiser son autonomie. Ce système d’alimentation permet de faire fonctionner le dispositif même en l’absence immédiate de soleil.
-
----
-
-## Plaque
-
-![](../Partie_mécanique/Photo_plaquecuivre.jpg)
-
-Il s’agit d’une plaque en cuivre ou en matériau conducteur utilisée comme base pour souder les composants électroniques. Elle sert à organiser et connecter proprement les éléments du circuit électrique
-
----
-
-## Avancement du montage
-
-![](../Partie_mécanique/Photo_systememeca1.jpg)
-
----
-
 
 [Retour](partie_mécanique.md)
