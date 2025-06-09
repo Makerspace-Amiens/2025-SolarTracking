@@ -124,7 +124,6 @@ Pour finir, ce système ajuste dynamiquement l'orientation du panneau solaire en
 
 
 ```
-
 #include <Wire.h>
 #include <ESP32Servo.h>
 
@@ -219,8 +218,6 @@ void loop() {
   delay(150);
 }
  ```
-
-
 
 Optimisation du système de suivi solaire
 
