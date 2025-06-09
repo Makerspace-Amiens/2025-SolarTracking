@@ -6,73 +6,91 @@ title: Code
 
 # Partie Code
 
-`#include <Wire.h>
-#include <BH1750.h>
+Dans le cadre de notre projet, nous avons développé et testé deux programmes visant à illustrer le fonctionnement d’un suiveur solaire. Cette section présente deux codes essentiels à la compréhension et à la démonstration de notre projet.
 
-BH1750 luxSensor;  
+Premièrement, Le premier code est dédié à l’étude des photorésistances grâce l’utilisation du capteur de luminosité BH1750. Ce module permet de mesurer avec précision l’intensité lumineuse ambiante en lux et de mieux comprendre le comportement des capteurs face aux variations de lumière. Ces données sont fondamentales pour assurer une détection fiable de la source lumineuse.
 
-const int analogPin13 = 13;  
-const int analogPin14 = 14; 
-const int analogPin26 = 26; 
-const int analogPin27 = 27; 
+Le second code correspond à la démonstration du suiveur solaire. Il met en œuvre les capteurs de luminosité pour piloter automatiquement l’orientation du panneau solaire en fonction de la position du soleil.
 
-void setup() {
-    Serial.begin(115200);  
-    Wire.begin(21, 22);   // Initialisation de la communication I2C sur les pins 21 et 22 de l'ESP32
-   
-    delay(10000); // Délai pour permettre le démarrage du capteur BH1750
+Ces deux codes sont complémentaires. Ils permettent de mieux appréhender les enjeux techniques de notre projet et démontrent son bon fonctionnement lors de la présentation finale.
 
-    // Initialisation du capteur BH1750 en mode haute résolution continue
-    if (luxSensor.begin(BH1750::CONTINUOUS_HIGH_RES_MODE, 0x23)) {
-        Serial.println("Capteur BH1750 initialisé !");
-    }
-}
 
-void loop() {
-    // Lecture de la luminosité (niveau de lumière)
-    float lux = luxSensor.readLightLevel();  
-   
-    // Affichage de la luminosité sur le moniteur série
-    /*Serial.print("Luminosité : ");
-    Serial.print(lux);
-    Serial.println(" lx");*/
-   
-    // Lecture de la valeur analogique sur GPIO15
-    int adcValue13 = analogRead(analogPin13); // Lire la valeur ADC de GPIO15
-    float voltage13 = adcValue13 * (3.3 / 4095.0); // Convertir la valeur ADC en tension (0-3.3V)
-    int adcValue14 = analogRead(analogPin14); 
-    float voltage14 = adcValue14 * (3.3 / 4095.0);
-    int adcValue26 = analogRead(analogPin26); 
-    float voltage26 = adcValue26 * (3.3 / 4095.0);
-    int adcValue27 = analogRead(analogPin27); 
-    float voltage27 = adcValue27 * (3.3 / 4095.0);
+Test des photorésistances
 
-    /*Serial.print("Tension sur GPIO13 : ");
-    Serial.print(voltage13);
-    Serial.println(" V");
-    Serial.print("Tension sur GPIO14 : ");
-    Serial.print(voltage14);
-    Serial.println(" V");
-    Serial.print("Tension sur GPIO26 : ");
-    Serial.print(voltage26);
-    Serial.println(" V");
-    Serial.print("Tension sur GPIO27 : ");
-    Serial.print(voltage27);
-    Serial.println(" V");*/
+Le premier code développé a pour objectif principal de calibrer les photorésistances utilisées dans notre système. Cette étape est importante afin de garantir une précision élevée lors de la détection de la luminosité ambiante.
 
-  Serial.print(lux, 3);   
-  Serial.print(", ");   
-  Serial.print(voltage13, 3);   
-  Serial.print(", ");          
-  Serial.print(voltage14, 3);   
-  Serial.print(", ");
-  Serial.print(voltage26, 3);   
-  Serial.print(", ");
-  Serial.print(voltage27, 3);   
-  Serial.println();  
+Le code repose sur un affichage des valeurs en volts issues du pont diviseur constitué de la photorésistance et d’une résistance entre 100 Ω et 1000 Ω, permettant ainsi de mesurer la variation de tension en fonction de la lumière.
 
-    // Attente d'une seconde avant la prochaine lecture
-    delay(1000);  
-}`
+Dans ce code, nous avons comparé les valeurs obtenues par les photorésistances avec celles fournies par le capteur de luminosité BH1750. En observant les différences de valeurs entre les photorésistances, nous avons pu ajuster les paramètres du code afin d’obtenir une correspondance plus précise entre les photorésistances. Cependant l’ajustement a été abandonné par la suite car non nécessaire pour un prototype de tracking.
 
-[](https://cloudlasalle.sharepoint.com/sites/TEAMS-AMS-PROJETI32-10SuiveurdePanneauSolaire/Documents%20partages/10%20Suiveur%20de%20Panneau%20Solaire/Programmation/Tracking/Tracking.ino?csf=1&web=1&e=h5DgaK)
+Il est important de noter que tous les tests ont été réalisés sur deux types de cartes différentes. Cependant, après analyse, nous avons décidé de retenir uniquement l’ESP32 S3 Xiao, qui a donné les meilleurs résultats en termes de stabilité et de performance pour ce projet.
+
+
+```#include <Wire.h> #include <BH1750.h> BH1750 luxSensor;
+
+//définition des constantes const int analogPinHG = A0; const int analogPinHD = A1; const int analogPinBG = A2; const int analogPinBD = A4; void setup() { // initialisation du capteur Serial.begin(115200); Wire.begin(4, 5); delay(10000); if (luxSensor.begin(BH1750::CONTINUOUS_HIGH_RES_MODE, 0x23)) { Serial.println("Capteur BH1750 initialisé !"); } } // initialisation des valeurs float voltageadjHG; float voltageadjHD; float voltageadjBG; float voltageadjBD; void loop() { // lecture des valeurs float lux = luxSensor.readLightLevel(); int adcValueHG = analogRead(analogPinHG); float voltageHG = adcValueHG * (3.3 / 4095.0); int adcValueHD = analogRead(analogPinHD); float voltageHD = adcValueHD * (3.3 / 4095.0); int adcValueBG = analogRead(analogPinBG); float voltageBG = adcValueBG * (3.3 / 4095.0); int adcValueBD = analogRead(analogPinBD); float voltageBD = adcValueBD * (3.3 / 4095.0); /*Serial.print("Tension sur GPIO13 : "); Serial.print(voltage13); Serial.println(" V"); Serial.print("Tension sur GPIO14 : "); Serial.print(voltage14); Serial.println(" V"); Serial.print("Tension sur GPIO26 : "); Serial.print(voltage26); Serial.println(" V"); Serial.print("Tension sur GPIO27 : ");
+
+Serial.print(voltage27); Serial.println(" V");*/ // affichage des valeurs Serial.print(lux, 3); Serial.print(", "); Serial.print(voltageHG, 3); Serial.print(", "); Serial.print(voltageHD, 3); Serial.print(", "); Serial.print(voltageBG, 3); Serial.print(", "); Serial.print(voltageBD, 3); Serial.println(); // attente d'une seconde avant la prochaine lecture delay(1000); }```
+
+
+
+
+Programme de démonstration
+
+Le projet repose sur l'utilisation de quatre photorésistances (HD, HG, BG, BD) disposées sur les coins du panneau solaire. Ces capteurs détectent la luminosité dans les différentes directions. Cela permet au système de déterminer où se trouve la source lumineuse la plus intense. Par la suite, en effectuant les lectures des capteurs, on ajuste automatiquement l'orientation du panneau en fonction de la variation de la lumière détectée.
+
+Explication du code
+
+1. Lecture des valeurs des photorésistances : Les valeurs des quatre photorésistances sont lues à chaque cycle de la boucle principale. Ces valeurs sont converties en tensions analogiques (en volts), ce qui permet de comparer les intensités lumineuses sur les différentes zones du panneau.
+
+2. Calcul des différences lumineuses : Ensuite, le code évalue les différences d'intensité lumineuse entre les différentes zones du panneau. Par exemple :
+
+o Différence verticale entre les capteurs HG+HD (haut) et BG+BD (bas).
+
+o Différence horizontale entre les capteurs HG+BG (gauche) et HD+BD (droite). Ces différences déterminent l'orientation du panneau, en ajustant ses servomoteurs pour que le panneau se tourne vers la zone la plus lumineuse.
+
+3. Mouvement des servomoteurs :
+
+o Mouvement horizontal : Si la différence lumineuse horizontale dépasse un certain seuil (toleranceH), le servomoteur horizontal ajuste la position du panneau pour se tourner vers la source de lumière.
+
+o Mouvement vertical : Si la différence lumineuse verticale dépasse un seuil (toleranceV), le servomoteur vertical ajuste la position du panneau en hauteur pour s’orienter vers la lumière.
+
+4. Retour à la position initiale : Si toutes les photorésistances ne détectent pas de lumière supérieure à un certain seuil (2.800 V), cela signifie que le panneau est dans une zone non lumineuse homogène ou que la lumière n’est pas assez diffuse.
+
+Détection de la lumière et ajustement dynamique
+
+Ce mécanisme permet au panneau de suivre la position du soleil ainsi que d'autres sources lumineuses (directes ou réfléchies). Le système ajuste continuellement la position du panneau pour maximiser l'exposition à la lumière et garantir une captation d'énergie optimale.
+
+Pour une utilisation en extérieur, il faut ajouter des caches pour réduire l'intensité lumineuse excessive. Cela évite que les capteurs réagissent à une lumière ambiante trop forte.
+
+Pour finir, ce système ajuste dynamiquement l'orientation du panneau solaire en temps réel. Il se base sur les différences d'intensité lumineuse détectées par les photorésistances. Cela permet d'optimiser la captation d’énergie en orientant constamment le panneau vers la source lumineuse la plus intense.
+
+```
+#include <Wire.h> #include <ESP32Servo.h> //initialisation des pins const int analogPinHD = A0; const int analogPinHG = A1; const int analogPinBG = A2; const int analogPinBD = A3; // déclaration des servomoteurs Servo servoHorizontal; Servo servoVertical;
+
+#include <Wire.h> #include <ESP32Servo.h> //initialisation des pins const int analogPinHD = A0; const int analogPinHG = A1; const int analogPinBG = A2; const int analogPinBD = A3; // déclaration des servomoteurs Servo servoHorizontal; Servo servoVertical; //position de base du suiveur int posH = 90; int posV = 90; //déclaration des pins pout les moteurs const int pinServoH = D9; const int pinServoV = D8; //Choix des tolérances de mouvement const float toleranceV = 0.50; const float toleranceH = 1.00; int angle = 90; void setup() { //initialisation Serial.begin(115200); delay(1000); servoHorizontal.attach(pinServoH); servoVertical.attach(pinServoV); servoVertical.write(angle); servoHorizontal.write(95); } void loop() { //lecture des valeurs pour les photorésistances float hd = analogRead(analogPinHD) * (3.3 / 4095.0); float hg = analogRead(analogPinHG) * (3.3 / 4095.0); float bg = analogRead(analogPinBG) * (3.3 / 4095.0); float bd = analogRead(analogPinBD) * (3.3 / 4095.0); //print des valeurs Serial.print(hd, 3); Serial.print(", "); Serial.print(hg, 3); Serial.print(", "); Serial.print(bg, 3); Serial.print(", ");
+
+Serial.print(bd, 3); Serial.println(); // Estimation des variations float diff_verticale1 = (hg + hd) - (bg + bd); float diff_verticale2 = (bg + bd) - (hg + hd); float diff_horizontale1 = (hg + bg) - (hd + bd); float diff_horizontale2 = (hd + bd) - (hg + bg); // Conditions pour les mouvements horizontales if (diff_horizontale1 > toleranceH) { servoHorizontal.write(90); // 1/8 de tour delay(160); // temps pur 1/8 de tour servoHorizontal.write(95); //Arrêt } else if (diff_horizontale2 > toleranceH) { servoHorizontal.write(97); // 1/8 de tour delay(147);// temps pur 1/8 de tour servoHorizontal.write(95);//Arrêt } // Conditions pour les mouvements verticales if (angle > 44 && angle < 136) { if (diff_verticale1 > toleranceV && angle < 126) { angle += 10; servoVertical.write(angle); } else if (diff_verticale2 > toleranceV && angle > 54) { angle -= 10; servoVertical.write(angle); } }
+
+//Retour position initiale if (hd > 2.800 && hg > 2.800 && bd > 2.800 && bg > 2.800) { servoVertical.write(90); angle = 90; } //delay delay(150); }
+```
+
+
+
+Optimisation du système de suivi solaire
+
+Lors de l'utilisation du suiveur solaire en conditions réelles, il est important de prendre en compte la consommation énergétique du système. Elle peut être rapidement devenir trop élevée par rapport à la production d'énergie du panneau solaire. En effet, le fonctionnement continu des servomoteurs pour ajuster la position du panneau en temps réel entraîne une consommation importante de courant. Cela réduit l'efficacité globale du système.
+
+Augmenter le délai pour optimiser la consommation
+
+Pour réduire la consommation, une première solution est d'augmenter les délais entre les ajustements de position. Chaque mouvement des servomoteurs consomme de l'énergie. Il est donc crucial de limiter les ajustements aux moments nécessaires. En augmentant le délai entre chaque cycle de mesure et de mouvement (par exemple, à 500 ms ou plus), le système effectuera des ajustements moins fréquents, réduisant ainsi la consommation d’énergie tout en maintenant un suivi lumineux efficace.
+
+Suivi théorique basé sur la trajectoire du soleil
+
+Une autre approche pour optimiser le suivi solaire sans augmenter la consommation est le suivi théorique du soleil. En utilisant des données comme la latitude, la longitude et l'heure locale, on peut calculer la position du soleil et prédire l'orientation optimale du panneau à chaque instant. Cela réduit la fréquence des ajustements des servomoteurs et la charge énergétique.
+
+Avec un modèle basé sur des calculs astronomiques (comme la position solaire), le système ajuste la position du panneau de manière plus précise et moins énergivore. Cette méthode théorique diminue la dépendance au suivi en temps réel tout en assurant une orientation optimale.
+
+Conclusion
+
+En résumé, bien que le suivi solaire en temps réel offre des résultats précis, il consomme trop d'énergie par rapport à la production du système. Pour optimiser la consommation, il est conseillé d'augmenter les délais entre les ajustements et d'adopter un suivi théorique basé sur la trajectoire du soleil. Cette approche maximise l'efficacité tout en réduisant l'impact énergétique, offrant un bon compromis entre précision et performance.
