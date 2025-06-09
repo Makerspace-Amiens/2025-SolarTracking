@@ -1,8 +1,8 @@
 ---
 layout: default
+nav_order: 9
 title: Assemblage
-parent: Etapes de fabrication
-nav_order: 2
+
 ---
 
 [Retour](etapes.md)  

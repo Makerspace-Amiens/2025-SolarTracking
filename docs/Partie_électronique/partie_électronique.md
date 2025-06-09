@@ -1,6 +1,6 @@
 ---
 layout: default
-nav_order: 8
+nav_order: 3
 title: Partie Electronique
 has_children: true
 ---
