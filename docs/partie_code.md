@@ -25,7 +25,7 @@ Dans ce code, nous avons comparé les valeurs obtenues par les photorésistances
 
 Il est important de noter que tous les tests ont été réalisés sur deux types de cartes différentes. Cependant, après analyse, nous avons décidé de retenir uniquement l’ESP32 S3 Xiao, qui a donné les meilleurs résultats en termes de stabilité et de performance pour ce projet.
 
-<pre> ```cpp // 
+```
 #include <Wire.h>
 #include <BH1750.h>
 
@@ -90,8 +90,7 @@ void loop() {
   delay(1000);
 }
 
-``` </pre>
-
+```
 
 Programme de démonstration
 
@@ -124,7 +123,7 @@ Pour une utilisation en extérieur, il faut ajouter des caches pour réduire l'i
 Pour finir, ce système ajuste dynamiquement l'orientation du panneau solaire en temps réel. Il se base sur les différences d'intensité lumineuse détectées par les photorésistances. Cela permet d'optimiser la captation d’énergie en orientant constamment le panneau vers la source lumineuse la plus intense.
 
 
-<pre> ```cpp // 
+```
 
 #include <Wire.h>
 #include <ESP32Servo.h>
@@ -219,7 +218,7 @@ void loop() {
   // Pause entre deux mesures
   delay(150);
 }
- ``` </pre>
+ ```
 
 
 
