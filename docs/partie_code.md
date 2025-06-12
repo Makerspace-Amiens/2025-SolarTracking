@@ -98,21 +98,21 @@ Le projet repose sur l'utilisation de quatre photorésistances (HD, HG, BG, BD) 
 
 ## Explication du code
 
-1. Lecture des valeurs des photorésistances : Les valeurs des quatre photorésistances sont lues à chaque cycle de la boucle principale. Ces valeurs sont converties en tensions analogiques (en volts), ce qui permet de comparer les intensités lumineuses sur les différentes zones du panneau.
+1- Lecture des valeurs des photorésistances : Les valeurs des quatre photorésistances sont lues à chaque cycle de la boucle principale. Ces valeurs sont converties en tensions analogiques (en volts), ce qui permet de comparer les intensités lumineuses sur les différentes zones du panneau.
 
-2. Calcul des différences lumineuses : Ensuite, le code évalue les différences d'intensité lumineuse entre les différentes zones du panneau. Par exemple :
+2- Calcul des différences lumineuses : Ensuite, le code évalue les différences d'intensité lumineuse entre les différentes zones du panneau. Par exemple :
 
 o Différence verticale entre les capteurs HG+HD (haut) et BG+BD (bas).
 
 o Différence horizontale entre les capteurs HG+BG (gauche) et HD+BD (droite). Ces différences déterminent l'orientation du panneau, en ajustant ses servomoteurs pour que le panneau se tourne vers la zone la plus lumineuse.
 
-3. Mouvement des servomoteurs :
+3- Mouvement des servomoteurs :
 
 o Mouvement horizontal : Si la différence lumineuse horizontale dépasse un certain seuil (toleranceH), le servomoteur horizontal ajuste la position du panneau pour se tourner vers la source de lumière.
 
 o Mouvement vertical : Si la différence lumineuse verticale dépasse un seuil (toleranceV), le servomoteur vertical ajuste la position du panneau en hauteur pour s’orienter vers la lumière.
 
-4. Retour à la position initiale : Si toutes les photorésistances ne détectent pas de lumière supérieure à un certain seuil (2.800 V), cela signifie que le panneau est dans une zone non lumineuse homogène ou que la lumière n’est pas assez diffuse.
+4- Retour à la position initiale : Si toutes les photorésistances ne détectent pas de lumière supérieure à un certain seuil (2.800 V), cela signifie que le panneau est dans une zone non lumineuse homogène ou que la lumière n’est pas assez diffuse.
 
 ## Détection de la lumière et ajustement dynamique
 
