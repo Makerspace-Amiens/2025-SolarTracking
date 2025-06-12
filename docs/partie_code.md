@@ -92,11 +92,11 @@ void loop() {
 
 ```
 
-Programme de démonstration
+## Programme de démonstration
 
 Le projet repose sur l'utilisation de quatre photorésistances (HD, HG, BG, BD) disposées sur les coins du panneau solaire. Ces capteurs détectent la luminosité dans les différentes directions. Cela permet au système de déterminer où se trouve la source lumineuse la plus intense. Par la suite, en effectuant les lectures des capteurs, on ajuste automatiquement l'orientation du panneau en fonction de la variation de la lumière détectée.
 
-Explication du code
+## Explication du code
 
 1. Lecture des valeurs des photorésistances : Les valeurs des quatre photorésistances sont lues à chaque cycle de la boucle principale. Ces valeurs sont converties en tensions analogiques (en volts), ce qui permet de comparer les intensités lumineuses sur les différentes zones du panneau.
 
@@ -114,7 +114,7 @@ o Mouvement vertical : Si la différence lumineuse verticale dépasse un seuil (
 
 4. Retour à la position initiale : Si toutes les photorésistances ne détectent pas de lumière supérieure à un certain seuil (2.800 V), cela signifie que le panneau est dans une zone non lumineuse homogène ou que la lumière n’est pas assez diffuse.
 
-Détection de la lumière et ajustement dynamique
+## Détection de la lumière et ajustement dynamique
 
 Ce mécanisme permet au panneau de suivre la position du soleil ainsi que d'autres sources lumineuses (directes ou réfléchies). Le système ajuste continuellement la position du panneau pour maximiser l'exposition à la lumière et garantir une captation d'énergie optimale.
 
@@ -219,20 +219,20 @@ void loop() {
 }
  ```
 
-Optimisation du système de suivi solaire
+## Optimisation du système de suivi solaire
 
 Lors de l'utilisation du suiveur solaire en conditions réelles, il est important de prendre en compte la consommation énergétique du système. Elle peut être rapidement devenir trop élevée par rapport à la production d'énergie du panneau solaire. En effet, le fonctionnement continu des servomoteurs pour ajuster la position du panneau en temps réel entraîne une consommation importante de courant. Cela réduit l'efficacité globale du système.
 
-Augmenter le délai pour optimiser la consommation
+## Augmenter le délai pour optimiser la consommation
 
 Pour réduire la consommation, une première solution est d'augmenter les délais entre les ajustements de position. Chaque mouvement des servomoteurs consomme de l'énergie. Il est donc crucial de limiter les ajustements aux moments nécessaires. En augmentant le délai entre chaque cycle de mesure et de mouvement (par exemple, à 500 ms ou plus), le système effectuera des ajustements moins fréquents, réduisant ainsi la consommation d’énergie tout en maintenant un suivi lumineux efficace.
 
-Suivi théorique basé sur la trajectoire du soleil
+## Suivi théorique basé sur la trajectoire du soleil
 
 Une autre approche pour optimiser le suivi solaire sans augmenter la consommation est le suivi théorique du soleil. En utilisant des données comme la latitude, la longitude et l'heure locale, on peut calculer la position du soleil et prédire l'orientation optimale du panneau à chaque instant. Cela réduit la fréquence des ajustements des servomoteurs et la charge énergétique.
 
 Avec un modèle basé sur des calculs astronomiques (comme la position solaire), le système ajuste la position du panneau de manière plus précise et moins énergivore. Cette méthode théorique diminue la dépendance au suivi en temps réel tout en assurant une orientation optimale.
 
-Conclusion
+## Conclusion
 
 En résumé, bien que le suivi solaire en temps réel offre des résultats précis, il consomme trop d'énergie par rapport à la production du système. Pour optimiser la consommation, il est conseillé d'augmenter les délais entre les ajustements et d'adopter un suivi théorique basé sur la trajectoire du soleil. Cette approche maximise l'efficacité tout en réduisant l'impact énergétique, offrant un bon compromis entre précision et performance.
